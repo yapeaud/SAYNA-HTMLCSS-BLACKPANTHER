@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --white-color: #ffffff;
     --dark-violet-color: #3d2da6;
@@ -52,4 +57,90 @@
 font-face {
     font-family: cantarell;
     src: url(../fonts/Cantarell-Regular.ttf) format('truetype');
+}
+
+/* ACCUEIL */
+body{
+    background-image: url(/assets/images/all-pages/arrière_plan.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.navbar {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.vertical-line {
+    /* position: absolute;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    height: 20000000000%;
+    background-color: #fff; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #fff;
+}
+
+.vertical-line.left {
+    left: 20px;
+    height: 8cm;
+}
+
+.vertical-line.right {
+    left: 40px; 
+    height: 8cm;
+}
+.navbar .logo img {
+    height: 20px; 
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    font-family: beyno;
+    
+}
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    display: block;
+    color: var(--white-color);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: var(--dark-violet-color);
+    text-decoration: underline;
+}
+
+.navbar li a.active {
+    color: var(--dark-violet-color);
+    text-decoration: underline;
+}
+
+footer{
+    background-image: url(/assets/images/all-pages/back_footer.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
