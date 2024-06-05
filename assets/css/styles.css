@@ -87,17 +87,38 @@ body{
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #fff;
+    background-color: var(--lavender-color);
 }
 
 .vertical-line.left {
     left: 20px;
-    height: 8cm;
+    height: 7.3cm;
 }
 
 .vertical-line.right {
     left: 40px; 
-    height: 8cm;
+    height: 4cm;
+}
+
+.icon-facebook{
+    position: absolute;
+    top: 10rem;
+    left: 30px;
+}
+.icon-instagram{
+    position: absolute;
+    top: 12rem;
+    left: 30px;
+}
+.icon-twitter{
+    position: absolute;
+    top: 14rem;
+    left: 30px;
+}
+.icon-tiktok{
+    position: absolute;
+    top: 16rem;
+    left: 30px;
 }
 .navbar .logo img {
     height: 20px; 
@@ -128,12 +149,12 @@ body{
 }
 
 .navbar li a:hover {
-    color: var(--dark-violet-color);
+    color: var(--lavender-color);
     text-decoration: underline;
 }
 
 .navbar li a.active {
-    color: var(--dark-violet-color);
+    color: var(--lavender-color);
     text-decoration: underline;
 }
 
