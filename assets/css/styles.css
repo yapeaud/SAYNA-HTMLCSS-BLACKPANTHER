@@ -7,31 +7,49 @@
     --lavender-color: #9e91b7;
     --light-lavender-color: #df99f2;
 
-    --h1-font-family: ;
+    
     --h1-font-size: 68px;
     --h1-font-style: normal;
 
-    --h2-font-family: ;
+    
     --h2-font-size: 32px;
     --h2-font-style: normal;
 
-    --h2-enigme-font-family: ;
+   
     --h2-enigme-font-size: 43px;
     --h2-enigme-font-style: normal;
 
-    --texte-enigme-font-family: ;
+    
     --texte-enigme-font-size: 43px;
     --texte-enigme-font-style: normal;
 
-    --texte-font-family: ;
+   
     --texte-font-size: 16px;
     --texte-font-style: normal;
 
-    --citation-font-family: ;
     --citation-font-size: 14px;
     --citation-font-style: normal;
 
-    --footer-font-family: ;
     --footer-font-size: 10px;
     --footer-font-style: normal;
 } 
+
+@font-face {
+    font-family: panthera;
+    src: url(../fonts/panthera.otf) format('opentype');
+}
+
+@font-face {
+    font-family: beyno;
+    src: url(../fonts/BEYNO.otf) format('opentype');
+}
+
+ @font-face {
+    font-family: wakanda;
+    src: url(../fonts/WakandaForever-Regular.ttf) format('truetype');
+}
+
+font-face {
+    font-family: cantarell;
+    src: url(../fonts/Cantarell-Regular.ttf) format('truetype');
+}
