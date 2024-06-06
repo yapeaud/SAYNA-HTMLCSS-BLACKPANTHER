@@ -59,7 +59,6 @@ font-face {
     src: url(../fonts/Cantarell-Regular.ttf) format('truetype');
 }
 
-/* ACCUEIL */
 body{
     background-image: url(/assets/images/all-pages/arrière_plan.png);
     background-position: top;
@@ -67,6 +66,8 @@ body{
     background-size: cover;
     height: 800px;
 }
+/* ACCUEIL */
+
 .navbar {
     overflow: hidden;
     display: flex;
@@ -76,13 +77,6 @@ body{
 }
 
 .vertical-line {
-    /* position: absolute;
-    left: 30px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    height: 20000000000%;
-    background-color: #fff; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -157,6 +151,80 @@ body{
     color: var(--lavender-color);
     text-decoration: underline;
 }
+/* MAIN */
+
+/* banner */
+#banner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
+.text-banner{
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+ .h1-banner{
+    font-family: panthera;
+    font-size: 68px;
+    color: var(--light-lavender-color);
+}
+.h2-banner{
+    font-family: beyno;
+    font-size: 32px;
+    color: var(--light-lavender-color);
+}
+.para-banner{
+    padding-top: 20px;
+    font-family: cantarell;
+    font-size: 16px;
+    color: var(--white-color);
+} 
+.lien-banner{
+    color: var(--white-color);
+}
+.pantherhome1{
+    width: 700px;
+}
+
+/* actors */
+
+#actors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 9rem;
+    background-color: var(--dark-blue-color);
+}
+.h2-actor{
+    font-family: beyno;
+    font-size: 32px;
+    color: var(--light-lavender-color);
+    padding-bottom: 20px;
+}
+.para-actor{
+color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-image: url(/assets/images/all-pages/back_footer.png);
