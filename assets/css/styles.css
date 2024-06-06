@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -184,17 +185,47 @@ body{
     color: var(--white-color);
 }
 .pantherhome1{
-    width: 700px;
+    width: 660px;
 }
 
 /* actors */
-
 #actors{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    margin-left: 9rem;
-    background-color: var(--dark-blue-color);
+    margin: 0.8rem;
+}
+.pantherhome2{
+    width: 250px;
+    position: relative;
+    top: 0rem;
+}
+.pantherhome3{
+    width: 184px;
+    position: absolute;
+    left: 40rem;
+    top: 35rem;
+}
+.pantherhome4{
+    width: 135px; 
+    position: absolute;
+    left: 75rem;
+    top: 35rem;
+}
+.actor{
+    text-align: justify;
+    background-color: var(--dark-navy-blue-color); 
+    height: 12.5rem;
+    padding: -10px;
+}
+.position-1{
+    position: absolute;
+    top: 36rem;
+    left: 17.5rem;
+    width: 350px;
+}
+.position-2{
+    position: absolute;
+    top: 36rem;
+    left: 52rem;
+    width: 350px;
 }
 .h2-actor{
     font-family: beyno;
@@ -204,6 +235,7 @@ body{
 }
 .para-actor{
 color: var(--white-color);
+font-family: cantarell;
 }
 
 
