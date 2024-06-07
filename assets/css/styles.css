@@ -284,11 +284,38 @@ padding-bottom: 0.8rem;
     font-size: 16px;
 }
 
-
-
-
-
-
+.img-history{
+    padding-left: 95px;
+    font-family: cantarell;
+}
+.img-para-history{
+    background-color: var(--white-color);
+    width: 440px;
+    padding: 25px;
+    border-radius: 4px;
+    text-align: justify;
+}
+.img-title-hitstory{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.btn-history{
+    text-align: center;
+}
+.btn-history-item{
+    color: var(--white-color);
+    background-color: var(--dark-violet-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.img-text-history{
+    padding-top: 15px;
+    padding-left: 45px;
+}
+.img-bold{
+    font-weight: bold;
+}
 
 
 
