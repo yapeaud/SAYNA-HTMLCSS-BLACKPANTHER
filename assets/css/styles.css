@@ -333,9 +333,9 @@ form {
     width: 600px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    *box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: linear-gradient(to bottom, var(--dark-blue-color));
+    border-radius: 65px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, var(--dark-blue-color));
 }
 .para-form-text{
     text-align: center;
@@ -379,4 +379,9 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
 }
