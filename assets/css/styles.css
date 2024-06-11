@@ -447,8 +447,9 @@ textarea {
 /* about-wakada */
 #about-wakanda{
     display: grid;
+    
     grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(0px, auto);
     gap: 20px;
 
     
@@ -464,6 +465,7 @@ textarea {
     width: 800px;
     position: absolute;
     left: 12rem;
+    opacity: 0.8;
 }
 .para-about-wakanda{
     position: relative;
@@ -472,14 +474,25 @@ textarea {
 .title-about-wakanda{
     font-family: beyno;
     color: var(--pale-pink-color);
-    font-size: 32PX;
+    font-size: 16PX;
     padding-bottom: 25px;
 }
 
+.link-about-wakanda a{
+    color: var(--white-color);
+    text-decoration: none;
+    width: 200px;  /* Définir la largeur de la div */
+            height: 100px; /* Définir la hauteur de la div */
+            background-color: #4CAF50;
+}
 
+.text-about-wakanda{
+    padding-bottom: 20px;
+}
 
-
-
+.pantherwakanda2-1{
+    width: 500px;
+}
 
 
 
