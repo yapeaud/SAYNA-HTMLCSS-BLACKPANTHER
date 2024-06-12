@@ -369,7 +369,8 @@ textarea {
 /* .btn-form:hover {
 
 } */
-    
+
+/* WAKANDA */
 /* navbar-wakada */
 .navbar-wakanda {
     display: flex; 
@@ -446,55 +447,72 @@ textarea {
 
 /* about-wakada */
 #about-wakanda{
-    display: grid;
-    
-    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
-    grid-auto-rows: minmax(0px, auto);
-    gap: 20px;
-
-    
-    padding-left: 80px;
-    padding-right: 80px;
+    display: flex;
     text-align: justify;
-
-    
     color: var(--white-color);
 }
-
-.img-about-wakanda{
-    width: 800px;
-    position: absolute;
-    left: 12rem;
-    opacity: 0.8;
-}
 .para-about-wakanda{
+    margin-left: 50px;
+    margin-right: 50px;
     position: relative;
 }
+.para-about-wakanda-2{
+    margin-right: 50px;
+    position: relative;
+}
+ .img-about-wakanda{
+    position: absolute;
+    width: 800px;
+    top: 45rem;
+    left: 15rem;
+  }
+.about-position{
+    padding-top: 50px;
+} 
 
 .title-about-wakanda{
     font-family: beyno;
     color: var(--pale-pink-color);
     font-size: 16PX;
-    padding-bottom: 25px;
+    padding-top: 45px;
+    padding-bottom: 22px;
 }
-
-.link-about-wakanda a{
-    color: var(--white-color);
-    text-decoration: none;
-    width: 200px;  /* Définir la largeur de la div */
-            height: 100px; /* Définir la hauteur de la div */
-            background-color: #4CAF50;
+.title-about-wakanda-anecdote{
+    font-family: beyno;
+    color: var(--pale-pink-color);
+    font-size: 16PX;
+    padding-bottom: 22px;
 }
-
 .text-about-wakanda{
     padding-bottom: 20px;
 }
 
 .pantherwakanda2-1{
-    width: 500px;
+    width: 600px;
+    position: relative;
+}
+.anecdote{
+    margin-top: 2px;
 }
 
+.link-about-wakanda {
+    text-decoration: none;
+    background-color: var(--dark-navy-blue-color);
+    padding: 25px;
+    margin-top: 50px;
+    padding-bottom: 75px;
+}
 
+.link-about-wakanda a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.text-about-wakanda-last-para{
+    padding-bottom: 75px;
+}
+
+/* ENIGME */
 
 
 
@@ -557,7 +575,11 @@ footer{
     top: 192.5rem;
     right: 65rem;
 }
-
+.footer2-wakanda{
+    position: absolute;
+    top: 173rem;
+    right: 65rem;
+}
 .para-footer{
     font-size: 22px;
     letter-spacing: 9px;
@@ -570,4 +592,9 @@ footer{
     position: absolute;
     top: 200rem;
     left:  30rem;
+}
+.copy-footer-wakanda{
+    position: absolute;
+    top: 180rem;
+    left: 30rem;
 }
