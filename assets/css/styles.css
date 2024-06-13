@@ -699,3 +699,17 @@ footer{
     top: 133rem;
     left: 30rem;
 }
+/* Styles pour les grands ordinateurs de bureau 
+@media only screen and (min-width: 1200px) {
+   
+}
+
+/* Styles pour les tablettes et petits ordinateurs portables 
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    
+}
+
+ /* Styles pour les petits appareils comme les téléphones portables 
+@media only screen and (max-width: 600px) {
+   
+}*/
