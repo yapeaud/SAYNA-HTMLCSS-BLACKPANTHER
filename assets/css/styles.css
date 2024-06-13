@@ -325,7 +325,7 @@ padding-bottom: 0.8rem;
     height: 500px;
     position: relative;
 }
-form {
+.form-contact{
     position: absolute;
     top: 50px;
     left: 350px;
@@ -347,8 +347,8 @@ form {
     font-size: 64px;
     color: var(--dark-navy-blue-color);
 }
-input[type="text"],
-input[type="email"],
+.input-accueil[type="text"],
+.input-accueil[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
@@ -514,38 +514,124 @@ textarea {
 
 /* ENIGME */
 
+/* banner-enigme */
+#banner-enigme{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
 
+.pantherenigme1{
+    width: 800px;
+}
 
+.text-banner-enigme{
+    padding-top: 250px;
+}
 
+.h2-banner-enigme{
+    font-family: beyno;
+    font-size: 70px;
+    color: var(--light-lavender-color);
+}
 
+.pantherenigme2{
+    width: 650px;
+    padding-top: 63px;
+}
 
+.para-banner-enigme{
+    font-family: cantarell; 
+    font-size: 16px; 
+    color: var(--white-color);
+    text-align: justify;
+    margin-top: 88px; 
+    margin-right: 90px;
+    position: absolute;
+    top: 34rem;
+    left: 50rem;
+}
 
+.pantherenigme3{
+    width: 625px;
+    position: absolute;
+    top: 55rem;
+    left: 45rem;
+}
 
+/* enigme */
+#enigme{
+    display: flex;
+    color: var(--white-color);
+}
 
+.enigme{
+    margin: 60px;
+    padding-top: 100px;
+}
 
+.text-enigme{
+    font-family: wakanda;
+    font-size: 43px;
+    color: var(--lavender-color);
+}
 
+.pantherenigme3-enigme{
+    width: 550px;
+}
 
+.para-lettre-wakanda{
+    padding-top: 50px;
+}
 
+.title-citation{
+    margin-bottom: 25px;
+}
 
+.lettre-wakanda{
+    font-family: wakanda;
+}
 
+.form-enigme{
+    padding-top: 165px;
+}
 
+.input-ask[type="text"]{
+    width: 50%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--light-lavender-color);
+    border-radius: 18px;
+    background-color: #0d111a;
+}
 
+.btn-form-ask{
+    background-color: var(--light-lavender-color);
+    color: var(--dark-blue-color);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: 100px;
+}
 
+.pantherenigme3-enigme{
+    padding-top: 350px;
+    position: relative;
+    margin-right: 45px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.citation{
+    position: absolute;
+    top: 86rem;
+    left: 51rem;
+    text-align: center;
+    width: 30%;
+    font-size: 14px;
+}
 
 /* FOOTER */
 footer{
@@ -575,16 +661,6 @@ footer{
     top: 192.5rem;
     right: 65rem;
 }
-.footer2-wakanda{
-    position: absolute;
-    top: 173rem;
-    right: 65rem;
-}
-.para-footer{
-    font-size: 22px;
-    letter-spacing: 9px;
-    padding-bottom: 60px;
-}
 .icon-footer{
     letter-spacing: 35px;
 }
@@ -593,8 +669,33 @@ footer{
     top: 200rem;
     left:  30rem;
 }
+.para-footer{
+    font-size: 22px;
+    letter-spacing: 9px;
+    padding-bottom: 60px;
+}
+
+/* wakanda-footer */
+.footer2-wakanda{
+    position: absolute;
+    top: 173rem;
+    right: 65rem;
+}
 .copy-footer-wakanda{
     position: absolute;
     top: 180rem;
+    left: 30rem;
+}
+
+/* enigme-footer */
+.footer2-enigme{
+    position: absolute;
+    top: 126rem;
+    left: 11.5rem;
+}
+
+.copy-footer-enigme{
+    position: absolute;
+    top: 133rem;
     left: 30rem;
 }
