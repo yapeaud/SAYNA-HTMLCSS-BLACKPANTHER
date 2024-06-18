@@ -67,7 +67,10 @@ body{
     background-size: cover;
     height: 800px;
 }
-/* ACCUEIL */
+
+/* Styles pour les grands ordinateurs de bureau */
+@media only screen and (min-width: 1200px) {
+   /* ACCUEIL */
 
 .navbar {
     overflow: hidden;
@@ -151,6 +154,7 @@ body{
     color: var(--lavender-color);
     text-decoration: underline;
 }
+
 /* MAIN */
 
 /* banner */
@@ -699,14 +703,310 @@ footer{
     top: 133rem;
     left: 30rem;
 }
-/* Styles pour les grands ordinateurs de bureau 
-@media only screen and (min-width: 1200px) {
-   
 }
 
-/* Styles pour les tablettes et petits ordinateurs portables 
+/* Styles pour les tablettes et petits ordinateurs portables */
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
+       /* ACCUEIL */
+.navbar {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
     
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--lavender-color);
+}
+
+.vertical-line.left {
+    left: 20px;
+    height: 7.3cm;
+}
+
+.vertical-line.right {
+    left: 40px; 
+    height: 4cm;
+}
+
+.icon-facebook{
+    position: absolute;
+    top: 10rem;
+    left: 30px;
+}
+.icon-instagram{
+    position: absolute;
+    top: 12rem;
+    left: 30px;
+}
+.icon-twitter{
+    position: absolute;
+    top: 14rem;
+    left: 30px;
+}
+.icon-tiktok{
+    position: absolute;
+    top: 16rem;
+    left: 30px;
+}
+.navbar .logo img {
+    height: 20px; 
+    margin-left: 60px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    font-family: beyno;
+    
+}
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    display: block;
+    color: var(--white-color);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: var(--lavender-color);
+    text-decoration: underline;
+}
+
+.navbar li a.active {
+    color: var(--lavender-color);
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+/* banner */
+#banner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
+.text-banner{
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+ .h1-banner{
+    font-family: panthera;
+    font-size: 68px;
+    color: var(--light-lavender-color);
+}
+.h2-banner{
+    font-family: beyno;
+    font-size: 32px;
+    color: var(--light-lavender-color);
+}
+.para-banner{
+    padding-top: 20px;
+    font-family: cantarell;
+    font-size: 16px;
+    color: var(--white-color);
+} 
+.lien-banner{
+    color: var(--white-color);
+}
+.pantherhome1{
+    width: 600px;
+}
+
+/* actors */
+#actors{
+    margin: 0.8rem;
+    
+}
+.pantherhome2{
+    width: 250px;
+    position: relative;
+    top: 0rem;
+    left: 3.2rem;
+}
+.pantherhome3{
+    width: 184px;
+    position: absolute;
+    top: 55rem;
+    left: 5rem;
+}
+.pantherhome4{
+    width: 135px;
+    position: absolute;
+    top: 55rem;
+    left: 612.5px;
+}
+.actor{
+    text-align: justify;
+    background-color: var(--dark-navy-blue-color); 
+    height: 12.5rem;
+    padding:10px;
+}
+.actor-border{
+    background-color: var(--dark-navy-blue-color);
+    width: 200px;
+    height: 210px;
+    position: absolute;
+    left: 52px;
+    top: 36rem;
+}
+.para-position-1{
+    position: absolute;
+    top: 36rem;
+    left: 314px;
+    width: 350px;
+    font-size: 16px;
+}
+.para-position-2{
+    position: absolute;
+    top: 55.5rem;
+    left: 264px;
+    width: 350px;
+    font-size: 16px;
+}
+.h2-actor{
+    font-family: beyno;
+    font-size: 32px;
+    color: var(--light-lavender-color);
+    padding-bottom: 0.8rem;
+}
+.para-actor{
+    color: var(--white-color);
+    font-family: cantarell;
+    font-size: 16px;
+    padding-bottom: 0.8rem;
+}
+
+/* history */
+#history{
+    padding-top: 280px;
+    padding-left: 85px;
+    padding-right: 85px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 5px;
+}
+.text-history{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: justify;
+    
+}
+.img-history{
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 95px;
+    font-family: cantarell;
+}
+.h2-history{
+    padding-bottom: 15px;
+    font-family: beyno;
+    font-size: 32px;
+    color: var(--light-lavender-color);
+}
+.para-history{
+    padding-bottom: 15px;
+    color: var(--white-color);
+    font-family: cantarell;
+    font-size: 16px;
+}
+.img-para-history{
+    background-color: var(--white-color);
+    width: 440px;
+    padding: 25px;
+    border-radius: 4px;
+    text-align: justify;
+}
+.img-title-hitstory{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.btn-history{
+    text-align: center;
+}
+.btn-history-item{
+    color: var(--white-color);
+    background-color: var(--dark-violet-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.img-text-history{
+    padding-top: 15px;
+    padding-left: 45px;
+}
+.img-bold{
+    font-weight: bold;
+}
+#contact{
+    background-image: url(/assets/images/accueil/Pantherhome7.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.form-contact{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 65px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, var(--dark-blue-color));
+}
+.para-form-text{
+    text-align: center;
+    margin-bottom: 5px;
+    color: var(--dark-navy-blue-color);
+}
+.para-form-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 64px;
+    color: var(--dark-navy-blue-color);
+}
+
+.input-accueil[type="text"],
+.input-accueil[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+}
+
+.btn-form {
+    background-color: var(--light-lavender-color);
+    color: var(--dark-blue-color);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+/* .btn-form:hover {
+
+} */
 }
 
  /* Styles pour les petits appareils comme les téléphones portables 
