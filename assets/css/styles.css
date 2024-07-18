@@ -59,6 +59,7 @@
 body {
     background-image: url('../images/all-pages/arrière_plan.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -171,13 +172,13 @@ body {
 
 .h1-banner {
     font-family: panthera;
-    font-size: 68px;
+    font-size: var(--h1-font-size);
     color: var(--light-lavender-color);
 }
 
 .h2-banner, #actors .actor-title {
     font-family: beyno;
-    font-size: 32px;
+    font-size: var(--h2-font-size);
     color: var(--light-lavender-color);
 }
 
@@ -212,7 +213,7 @@ body {
         padding-top: 20px;
         font-family: cantarell;
         text-align: justify;
-        font-size: 16px;
+        font-size: var(--texte-font-size);
         color: var(--white-color);
     }
 
@@ -257,6 +258,104 @@ body {
     }
 
     /* Section HISTORY */
+
+    #history{
+       display: flex;
+        margin-left: 180px;
+        padding-top: 200px;
+    }
+
+    
+    #history .history-content{
+        width: 40%;
+    }
+
+    #history .history-content-item{
+        text-align: justify;
+        color: var(--white-color);
+    }
+
+    #history .history-title{
+        font-family: beyno;
+        font-size: var( --h2-font-size);
+        color: var(--light-lavender-color);
+        padding-bottom: 20px;
+    }
+
+    #history .history-para{
+        padding-bottom: 30px;
+    }
+
+    #history .history-content-info{
+        background-color: var(--white-color);
+        width: 400px;
+        border-radius: 8px;
+    }
+
+    #history .history-content-info h3{
+        text-align: center;
+        padding-bottom: 35px;
+    }
+
+    #history h3{
+        padding-top: 150px;
+    }
+
+    #history .history-content-info .history-btn {
+        text-align: center;
+    }
+
+    #history .history-info{
+        padding-top: 35px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 70px;
+    }
+
+    #history .history-bold{
+        font-weight: bold;
+    }
+
+    #history .min{
+        font-size: 12px;
+    }
+
+    #history .pantherhome5{
+        width: 200px;
+        margin-left: 100px;
+    }
+
+      #history .history-content-img{
+        position: relative;
+        margin-left: 180px;
+        margin-bottom: 100px;
+        font-family: cantarell;
+     }
+
+     #history .history-content-info{
+        position: absolute;
+     }
+
+     #history .img-history{
+        position: absolute;
+        bottom: 1568px;
+     } 
+
+     #history .img-history {
+        z-index: 1;
+     }
+     
+     #history .btn-history-btn{
+        background-color: var(--dark-blue-color);
+        color: var(--white-color);
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 4px;
+     }
+     #history .pantherhome6{
+      position: absolute;
+      top: 800px;
+     }
 }
 
 
@@ -400,6 +499,28 @@ body {
     }
 
     /* Section HISTORY */
+    #history{
+        display: flex;
+        margin: 80px;
+     }
+ 
+     #history .history-content-item{
+         margin-left: 50px;
+         margin-right: 50px;
+         text-align: justify;
+         color: var(--white-color);
+     }
+ 
+     #history .history-title{
+         font-family: beyno;
+         font-size: var( --h2-font-size);
+         color: var(--light-lavender-color);
+         padding-bottom: 20px;
+     }
+ 
+     #history .history-para{
+         padding-bottom: 30px;
+     }
 }
 
 
@@ -452,7 +573,7 @@ body {
     body {
         background-color: orange;
     }
-
+   
     /*  Section HEADER */
     .navbar li a {
         display: block;
@@ -501,4 +622,26 @@ body {
     }
     
     /* Section HISTORY */
+    #history{
+        margin: 80px;
+     }
+
+     #history .history-content-item{
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+        color: var(--white-color);
+    }
+
+    #history .history-title{
+        font-family: beyno;
+        font-size: var( --h2-font-size);
+        color: var(--light-lavender-color);
+        padding-bottom: 20px;
+    }
+
+    #history .history-para{
+        padding-bottom: 30px;
+    }
+
 }
