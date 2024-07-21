@@ -63,16 +63,6 @@ body {
     height: 9000px;
 }
 
-
-/* body {
-  background-image: url(/assets/images/all-pages/arrière_plan.png);
-   background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px; 
-} */
-
-
 /* Section HEADER */
 .scroll {
     position: fixed;
@@ -357,6 +347,78 @@ body {
       position: absolute;
       top: 800px;
      }
+
+     /* Section CONTACT */
+    #contact{
+        background-image: url('../images/accueil/Pantherhome7.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px; 
+    }
+
+    #contact article{
+        display: flex;
+        justify-content: center; /* Centre horizontalement */
+        padding: 200px;
+    }
+
+    #contact .contact-text{
+        text-align: center;
+    }
+
+    #contact form{
+         padding: 50px 100px;
+         border-radius: 152px;
+         font-family: cantarell;
+         background: linear-gradient(to bottom, var(--white-color) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    #contact input[type="text"], #contact input[type="email"]{
+       width: 520px;
+       height: 56px;
+       border-radius: 38px;
+       background-color: transparent;
+       border: 1px solid var(--dark-navy-blue-color);
+       padding-left: 25px;
+    }
+
+    #contact textarea{
+        border-radius: 38px;
+        width: 520px;
+        height: 112px;
+        background-color: transparent;
+        border: 1px solid var(--dark-navy-blue-color);
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+
+    #contact input[type="submit"]{
+        width: 174px;
+        height: 54px;
+        border-radius: 38px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        background-color: var(--light-lavender-color);
+        color: var(--dark-navy-blue-color);
+        font-weight: bold;
+    }
+
+    #contact input[type="submit"]:hover{
+        box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
+    }
+
+    #contact .btn-submit{
+        text-align: center;
+    }
+
+    #contact .contact-text{
+        padding-bottom: 25px;
+    }
+
+    #contact .contact-text-item{
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -598,6 +660,79 @@ body {
        position: absolute;
        top: 800px;
       }
+
+      /* Section CONTACT */
+
+      #contact{
+        background-image: url('../images/accueil/Pantherhome7.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px; 
+    }
+
+    #contact article{
+        display: flex;
+        justify-content: center; /* Centre horizontalement */
+        padding: 200px;
+    }
+
+    #contact .contact-text{
+        text-align: center;
+    }
+
+    #contact form{
+         padding: 50px 100px;
+         border-radius: 152px;
+         font-family: cantarell;
+         background: linear-gradient(to bottom, var(--white-color) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    #contact input[type="text"], #contact input[type="email"]{
+       width: 520px;
+       height: 56px;
+       border-radius: 38px;
+       background-color: transparent;
+       border: 1px solid var(--dark-navy-blue-color);
+       padding-left: 25px;
+    }
+
+    #contact textarea{
+        border-radius: 38px;
+        width: 520px;
+        height: 112px;
+        background-color: transparent;
+        border: 1px solid var(--dark-navy-blue-color);
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+
+    #contact input[type="submit"]{
+        width: 174px;
+        height: 54px;
+        border-radius: 38px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        background-color: var(--light-lavender-color);
+        color: var(--dark-navy-blue-color);
+        font-weight: bold;
+    }
+
+    #contact input[type="submit"]:hover{
+        box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
+    }
+
+    #contact .btn-submit{
+        text-align: center;
+    }
+
+    #contact .contact-text{
+        padding-bottom: 25px;
+    }
+
+    #contact .contact-text-item{
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -785,4 +920,77 @@ body {
         position: absolute;
         top: 5300px;
      }
+
+     /* Section CONTACT */
+     #contact{
+        margin-top: 700px;
+        background-image: url('../images/accueil/Pantherhome7.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px; 
+     }
+
+     #contact article{
+        display: flex;
+        justify-content: center;
+        padding: 200px;
+    }
+
+    #contact .contact-text{
+        text-align: center;
+    }
+
+    #contact form{
+        padding: 50px 100px;
+        border-radius: 52px;
+        font-family: cantarell;
+        background: linear-gradient(to bottom, var(--white-color) 0%, rgba(255, 255, 255, 0) 100%);
+   }
+
+   #contact input[type="text"], #contact input[type="email"]{
+    width: 150px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    border: 1px solid var(--dark-navy-blue-color);
+    padding-left: 25px;
+ }
+
+ #contact textarea{
+    border-radius: 38px;
+    width: 150px;
+    height: 112px;
+    background-color: transparent;
+    border: 1px solid var(--dark-navy-blue-color);
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+#contact input[type="submit"]{
+    width: 104px;
+    height: 54px;
+    border-radius: 38px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--light-lavender-color);
+    color: var(--dark-navy-blue-color);
+    font-weight: bold;
+}
+
+#contact input[type="submit"]:hover{
+    box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
+}
+
+#contact .btn-submit{
+    text-align: center;
+}
+
+#contact .contact-text{
+    padding-bottom: 25px;
+}
+
+#contact .contact-text-item{
+    padding-bottom: 10px;
+}
 }
