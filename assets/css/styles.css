@@ -1,425 +1,533 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Les différents polices */
 @font-face {
-    font-family: panthera;
-    src: url('../fonts/panthera.otf') format("opentype");
+  font-family: panthera;
+  src: url("../fonts/panthera.otf") format("opentype");
 }
 
 @font-face {
-    font-family: beyno;
-    src: url('../fonts/BEYNO.otf') format("opentype");
+  font-family: beyno;
+  src: url("../fonts/BEYNO.otf") format("opentype");
 }
 
 @font-face {
-    font-family: wakanda;
-    src: url('../fonts/WakandaForever-Regular.ttf') format("truetype");
+  font-family: wakanda;
+  src: url("../fonts/WakandaForever-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: cantarell;
-    src: url('../fonts/Cantarell-Regular.ttf') format("truetype");
+  font-family: cantarell;
+  src: url("../fonts/Cantarell-Regular.ttf") format("truetype");
 }
 
 :root {
-    --white-color: #ffffff;
-    --dark-violet-color: #3d2da6;
-    --dark-blue-color: #07338c;
-    --dark-navy-blue-color: #021740;
-    --pale-pink-color: #f2cef2;
-    --lavender-color: #9e91b7;
-    --light-lavender-color: #df99f2;
+  --white-color: #ffffff;
+  --dark-violet-color: #3d2da6;
+  --dark-blue-color: #07338c;
+  --dark-navy-blue-color: #021740;
+  --pale-pink-color: #f2cef2;
+  --lavender-color: #9e91b7;
+  --light-lavender-color: #df99f2;
 
-    --h1-font-size: 68px;
-    --h1-font-style: normal;
+  --h1-font-size: 68px;
+  --h1-font-style: normal;
 
-    --h2-font-size: 32px;
-    --h2-font-style: normal;
-    
-    --h2-enigme-font-size: 43px;
-    --h2-enigme-font-style: normal;
+  --h2-font-size: 32px;
+  --h2-font-style: normal;
 
-    --texte-enigme-font-size: 43px;
-    --texte-enigme-font-style: normal;
+  --h2-enigme-font-size: 43px;
+  --h2-enigme-font-style: normal;
 
-    --texte-font-size: 16px;
-    --texte-font-style: normal;
+  --texte-enigme-font-size: 43px;
+  --texte-enigme-font-style: normal;
 
-    --citation-font-size: 14px;
-    --citation-font-style: normal;
+  --texte-font-size: 16px;
+  --texte-font-style: normal;
 
-    --footer-font-size: 10px;
-    --footer-font-style: normal;
+  --citation-font-size: 14px;
+  --citation-font-style: normal;
+
+  --footer-font-size: 10px;
+  --footer-font-style: normal;
 }
 
 body {
-    background-image: url('../images/all-pages/arrière_plan.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 9000px;
+  background-image: url("../images/all-pages/arrière_plan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3800px;
 }
 
 /* Section HEADER */
 .scroll {
-    position: fixed;
+  position: fixed;
 }
 
 .vertical-line {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: var(--lavender-color);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--lavender-color);
 }
 
 .vertical-line.left {
-    left: 20px;
-    height: 7.3cm;
+  left: 20px;
+  height: 7.3cm;
 }
 
 .vertical-line.right {
-    left: 40px;
-    height: 4cm;
+  left: 40px;
+  height: 4cm;
 }
 
 .icon-facebook {
-    position: absolute;
-    top: 10rem;
-    left: 30px;
+  position: absolute;
+  top: 10rem;
+  left: 30px;
 }
 
 .icon-instagram {
-    position: absolute;
-    top: 12rem;
-    left: 30px;
+  position: absolute;
+  top: 12rem;
+  left: 30px;
 }
 
 .icon-twitter {
-    position: absolute;
-    top: 14rem;
-    left: 30px;
+  position: absolute;
+  top: 14rem;
+  left: 30px;
 }
 
 .icon-tiktok {
-    position: absolute;
-    top: 16rem;
-    left: 30px;
+  position: absolute;
+  top: 16rem;
+  left: 30px;
 }
 
 .icon-facebook:hover,
 .icon-instagram:hover,
 .icon-twitter:hover,
 .icon-tiktok:hover {
-    background-color: var(--white-color);
+  background-color: var(--white-color);
 }
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .navbar .logo img {
-    height: 20px;
-    margin-left: 60px;
+  height: 20px;
+  margin-left: 60px;
 }
 
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
-    font-family: beyno;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  font-family: beyno;
 }
 
 .navbar li {
-    margin: 0;
+  margin: 0;
 }
 
 .navbar li a:hover {
-    color: var(--white-color);
-    text-decoration: underline;
+  color: var(--white-color);
+  text-decoration: underline;
 }
 
 .navbar li a.active {
-    color: var(--lavender-color);
-    text-decoration: underline;
+  color: var(--lavender-color);
+  text-decoration: underline;
 }
 
 /* Section BANNER */
-#banner .lien, #actors .lien {
-    color: var(--white-color);
+#banner .lien,
+#actors .lien {
+  color: var(--white-color);
 }
 
 .h1-banner {
-    font-family: panthera;
-    font-size: var(--h1-font-size);
-    color: var(--light-lavender-color);
+  font-family: panthera;
+  font-size: var(--h1-font-size);
+  color: var(--light-lavender-color);
 }
 
-.h2-banner, #actors .actor-title {
-    font-family: beyno;
-    font-size: var(--h2-font-size);
-    color: var(--light-lavender-color);
+.h2-banner,
+#actors .actor-title {
+  font-family: beyno;
+  font-size: var(--h2-font-size);
+  color: var(--light-lavender-color);
 }
 
 /* Styles pour les grands ordinateurs de bureau */
 @media only screen and (min-width: 1200px) {
-    body {
-        background-color: orangered;
-    }
+  body {
+    background-color: orangered;
+  }
 
-    /*  Section HEADER */
-    .navbar li a {
-        display: block;
-        color: var(--white-color);
-        text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
-    }
+/* DEBUT PAGES ACCUEIL */
 
-    /* Section BANNER */
-    #banner {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 60px;
-    }
+  /*  Section HEADER */
+  .navbar li a {
+    display: block;
+    color: var(--white-color);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
 
-    #banner .text-banner {
-        margin-top: 8rem;
-        margin-left: 8rem;
-    }
+  /* Section BANNER */
+  #banner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
 
-    #banner .para-banner {
-        padding-top: 20px;
-        font-family: cantarell;
-        text-align: justify;
-        font-size: var(--texte-font-size);
-        color: var(--white-color);
-    }
+  #banner .text-banner {
+    margin-top: 8rem;
+    margin-left: 8rem;
+  }
 
-    #banner .pantherhome1 {
-        width: 660px;
-    }
+  #banner .para-banner {
+    padding-top: 20px;
+    font-family: cantarell;
+    text-align: justify;
+    font-size: var(--texte-font-size);
+    color: var(--white-color);
+  }
 
-     /* Section ACTORS */
-    #actors .actor-content{
-        display: flex;
-    }
+  #banner .pantherhome1 {
+    width: 660px;
+  }
 
-    #actors .actor-content-items{
-        display: flex;
-        text-align: justify;
-    }
+  /* Section ACTORS */
+  #actors .actor-content {
+    display: flex;
+  }
 
-    #actors .actor-content-text{
-        margin-top: 20px;
-        padding: 4px 8px;
-        background-color: var(--dark-navy-blue-color);
-        color: var(--white-color);
-        width: 100%;
-        height: 86%;
-        font-family: cantarell;
-        text-align: justify;
-    }
+  #actors .actor-content-items {
+    display: flex;
+    text-align: justify;
+  }
 
-    #actors .pantherhome2{
-        width: 200px;
-        margin-left: 100px;
-    }
+  #actors .actor-content-text {
+    margin-top: 20px;
+    padding: 4px 8px;
+    background-color: var(--dark-navy-blue-color);
+    color: var(--white-color);
+    width: 100%;
+    height: 86%;
+    font-family: cantarell;
+    text-align: justify;
+  }
 
-    #actors .pantherhome3{
-        margin-top: 20px;
-        width: 170px;
-    }
+  #actors .pantherhome2 {
+    width: 200px;
+    margin-left: 100px;
+  }
 
-    #actors .pantherhome4{
-        margin-top: 20px;
-        width: 125px;
-    }
+  #actors .pantherhome3 {
+    margin-top: 20px;
+    width: 170px;
+  }
 
-    /* Section HISTORY */
+  #actors .pantherhome4 {
+    margin-top: 20px;
+    width: 125px;
+  }
 
-    #history{
-       display: flex;
-        margin-left: 180px;
-        padding-top: 200px;
-    }
+  /* Section HISTORY */
 
-    
-    #history .history-content{
-        width: 40%;
-    }
+  #history {
+    display: flex;
+    margin-left: 180px;
+    padding-top: 200px;
+  }
 
-    #history .history-content-item{
-        text-align: justify;
-        color: var(--white-color);
-    }
+  #history .history-content {
+    width: 40%;
+  }
 
-    #history .history-title{
-        font-family: beyno;
-        font-size: var( --h2-font-size);
-        color: var(--light-lavender-color);
-        padding-bottom: 20px;
-    }
+  #history .history-content-item {
+    text-align: justify;
+    color: var(--white-color);
+  }
 
-    #history .history-para{
-        padding-bottom: 30px;
-    }
+  #history .history-title {
+    font-family: beyno;
+    font-size: var(--h2-font-size);
+    color: var(--light-lavender-color);
+    padding-bottom: 20px;
+  }
 
-    #history .history-content-info{
-        background-color: var(--white-color);
-        width: 400px;
-        border-radius: 8px;
-    }
+  #history .history-para {
+    padding-bottom: 30px;
+  }
 
-    #history .history-content-info h3{
-        text-align: center;
-        padding-bottom: 35px;
-    }
+  #history .history-content-info {
+    background-color: var(--white-color);
+    width: 400px;
+    border-radius: 8px;
+  }
 
-    #history h3{
-        padding-top: 150px;
-    }
+  #history .history-content-info h3 {
+    text-align: center;
+    padding-bottom: 35px;
+  }
 
-    #history .history-content-info .history-btn {
-        text-align: center;
-    }
+  #history h3 {
+    padding-top: 150px;
+  }
 
-    #history .history-info{
-        padding-top: 35px;
-        padding-left: 70px;
-        padding-right: 70px;
-        padding-bottom: 70px;
-    }
+  #history .history-content-info .history-btn {
+    text-align: center;
+  }
 
-    #history .history-bold{
-        font-weight: bold;
-    }
+  #history .history-info {
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+  }
 
-    #history .min{
-        font-size: 12px;
-    }
+  #history .history-bold {
+    font-weight: bold;
+  }
 
-    #history .pantherhome5{
-        width: 200px;
-        margin-left: 100px;
-    }
+  #history .min {
+    font-size: 12px;
+  }
 
-      #history .history-content-img{
-        position: relative;
-        margin-left: 180px;
-        margin-bottom: 100px;
-        font-family: cantarell;
-     }
+  #history .pantherhome5 {
+    width: 200px;
+    margin-left: 100px;
+  }
 
-     #history .history-content-info{
-        position: absolute;
-     }
+  #history .history-content-img {
+    position: relative;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    font-family: cantarell;
+  }
 
-     #history .img-history{
-        position: absolute;
-        bottom: 1568px;
-     } 
+  #history .history-content-info {
+    position: absolute;
+  }
 
-     #history .img-history {
-        z-index: 1;
-     }
-     
-     #history .btn-history-btn{
-        background-color: var(--dark-blue-color);
-        color: var(--white-color);
-        text-decoration: none;
-        padding: 8px;
-        border-radius: 4px;
-     }
-     #history .pantherhome6{
-      position: absolute;
-      top: 800px;
-     }
+  #history .img-history {
+    position: absolute;
+    bottom: 1568px;
+    z-index: 1;
+  }
 
-     /* Section CONTACT */
-    #contact{
-        background-image: url('../images/accueil/Pantherhome7.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 800px; 
-    }
+  #history .btn-history-btn {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  #history .pantherhome6 {
+    position: absolute;
+    top: 800px;
+  }
 
-    #contact article{
-        display: flex;
-        justify-content: center; /* Centre horizontalement */
-        padding: 200px;
-    }
+  /* Section CONTACT */
+  #contact {
+    background-image: url("../images/accueil/Pantherhome7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
 
-    #contact .contact-text{
-        text-align: center;
-    }
+  #contact article {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    padding: 200px;
+  }
 
-    #contact form{
-         padding: 50px 100px;
-         border-radius: 152px;
-         font-family: cantarell;
-         background: linear-gradient(to bottom, var(--white-color) 0%, rgba(255, 255, 255, 0) 100%);
-    }
+  #contact .contact-text {
+    text-align: center;
+  }
 
-    #contact input[type="text"], #contact input[type="email"]{
-       width: 520px;
-       height: 56px;
-       border-radius: 38px;
-       background-color: transparent;
-       border: 1px solid var(--dark-navy-blue-color);
-       padding-left: 25px;
-    }
+  #contact form {
+    padding: 50px 100px;
+    border-radius: 152px;
+    font-family: cantarell;
+    background: linear-gradient(
+      to bottom,
+      var(--white-color) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
 
-    #contact textarea{
-        border-radius: 38px;
-        width: 520px;
-        height: 112px;
-        background-color: transparent;
-        border: 1px solid var(--dark-navy-blue-color);
-        padding-top: 10px;
-        padding-left: 25px;
-    }
+  #contact input[type="text"],
+  #contact input[type="email"] {
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    border: 1px solid var(--dark-navy-blue-color);
+    padding-left: 25px;
+  }
 
-    #contact input[type="submit"]{
-        width: 174px;
-        height: 54px;
-        border-radius: 38px;
-        border: none;
-        cursor: pointer;
-        text-align: center;
-        background-color: var(--light-lavender-color);
-        color: var(--dark-navy-blue-color);
-        font-weight: bold;
-    }
+  #contact textarea {
+    border-radius: 38px;
+    width: 520px;
+    height: 112px;
+    background-color: transparent;
+    border: 1px solid var(--dark-navy-blue-color);
+    padding-top: 10px;
+    padding-left: 25px;
+  }
 
-    #contact input[type="submit"]:hover{
-        box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
-    }
+  #contact input[type="submit"] {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--light-lavender-color);
+    color: var(--dark-navy-blue-color);
+    font-weight: bold;
+  }
 
-    #contact .btn-submit{
-        text-align: center;
-    }
+  #contact input[type="submit"]:hover {
+    box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
+  }
 
-    #contact .contact-text{
-        padding-bottom: 25px;
-    }
+  #contact .btn-submit {
+    text-align: center;
+  }
 
-    #contact .contact-text-item{
-        padding-bottom: 10px;
-    }
+  #contact .contact-text {
+    padding-bottom: 25px;
+  }
+
+  #contact .contact-text-item {
+    padding-bottom: 10px;
+  }
+
+  /* Section FOOTER */
+
+  footer{
+    background-image: url('../images/all-pages/back_footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+   color: var(--white-color);
+   font-family: cantarell;
+  }
+
+  footer article{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 86%;
+    padding-top: 200px;
+  }
+
+  footer .footer-title{
+    font-size: 22px;
+    letter-spacing: 10px;
+  }
+
+  footer .footer-lien,  footer .footer-icon-reseau{
+    padding-top: 40px;
+  }
+
+  footer .footer-icon{
+    padding-left: 40px;
+  }
+  
+  footer .copyright{
+    padding-top: 180px;
+    font-size: var(--footer-font-size);
+  }
+
+  footer .fouter1{
+    position: relative;
+  }
+
+  footer .footer2{
+    position: absolute;
+    top: 4000px;
+    left: 180px;
+    z-index: 1;
+  }
+
+  /* FIN PAGES ACCUEIL */
+
+  /* DEBUT PAGES WAKANDA */
+
+  /* Section WAKANDA BANNER */
+   #wakanda-banner {
+    background-image: url('../images/wakanda/Pantherwakanda1.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+
+  #wakanda-banner article{
+    padding-top: 18rem;
+    padding-left: 4rem;
+    text-align: justify;
+    width: 60%;
+  }
+
+  #wakanda-banner h2{
+    font-family: beyno;
+    font-size: var(--h1-font-size);
+    color: var(--light-lavender-color);
+  }
+
+  #wakanda-banner h3{
+    font-family: wakanda;
+    font-size: var(--h2-font-size);
+    color: var(--light-lavender-color);
+    padding-top: 15px;
+  }
+
+  #wakanda-banner p{
+    padding-top: 20px;
+    font-family: cantarell;
+    font-size: 16px;
+    color: var(--white-color);
+    width: 80%;
+  }
+
+   /* Section WAKANDA ABOUT */
+   #wakanda-about{
+    background-image: url('../images/wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+   }
 }
+
+
+
+
+
+
 
 
 
@@ -479,261 +587,383 @@ body {
 
 /* Styles pour les tablettes et petits ordinateurs portables */
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
-    body {
-        background-color: darkorange;
-    }
+  body {
+    background-color: darkorange;
+  }
+/* DEBUT PAGES ACCUEIL */
 
-    /*  Section HEADER */
-    .navbar li a {
-        display: block;
-        color: var(--white-color);
-        text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
-    }
+  /*  Section HEADER */
+  .navbar li a {
+    display: block;
+    color: var(--white-color);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
 
-    /* Section BANNER */
-    #banner {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
+  /* Section BANNER */
+  #banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
 
-    #banner .text-banner {
-        margin-top: 6rem;
-        margin-left: 6rem;
-    }
+  #banner .text-banner {
+    margin-top: 6rem;
+    margin-left: 6rem;
+  }
 
-    #banner .h1-banner{
-        font-size: 60px;
-    }
+  #banner .h1-banner {
+    font-size: 60px;
+  }
 
-    #banner .para-banner {
-        padding-top: 20px;
-        font-family: cantarell;
-        text-align: justify;
-        font-size: 16px;
-        color: var(--white-color);
-    }
+  #banner .para-banner {
+    padding-top: 20px;
+    font-family: cantarell;
+    text-align: justify;
+    font-size: 16px;
+    color: var(--white-color);
+  }
 
-    #banner .pantherhome1 {
-        width: 600px;
-    }
+  #banner .pantherhome1 {
+    width: 600px;
+  }
 
-     /* Section ACTORS */
-    #actors .actor-content{
-        display: flex;
-    }
+  /* Section ACTORS */
+  #actors .actor-content {
+    display: flex;
+  }
 
-    #actors .actor-content-items{
-        display: flex;
-        text-align: justify;
-    }
+  #actors .actor-content-items {
+    display: flex;
+    text-align: justify;
+  }
 
-    #actors .actor-title{
-        padding-bottom: 3px;
-    }
+  #actors .actor-title {
+    padding-bottom: 3px;
+  }
 
-    #actors .actor-content-text{
-        margin-top: 20px;
-        padding: 4px 8px;
-        background-color: var(--dark-navy-blue-color);
-        color: var(--white-color);
-        width: 100%;
-        height: 84%;
-        font-family: cantarell;
-        text-align: justify;
-        font-size: 14px;
-    }
+  #actors .actor-content-text {
+    margin-top: 20px;
+    padding: 4px 8px;
+    background-color: var(--dark-navy-blue-color);
+    color: var(--white-color);
+    width: 100%;
+    height: 84%;
+    font-family: cantarell;
+    text-align: justify;
+    font-size: 14px;
+  }
 
-    #actors .pantherhome2{
-        width: 200px;
-        margin-left: 100px;
-    }
+  #actors .pantherhome2 {
+    width: 200px;
+    margin-left: 100px;
+  }
 
-    #actors .pantherhome3{
-        margin-top: 20px;
-        width: 170px;
-    }
+  #actors .pantherhome3 {
+    margin-top: 20px;
+    width: 170px;
+  }
 
-    #actors .pantherhome4{
-        margin-top: 20px;
-        width: 125px;
-    }
+  #actors .pantherhome4 {
+    margin-top: 20px;
+    width: 125px;
+  }
 
-    /* Section HISTORY */
+  /* Section HISTORY */
+
+  #history {
+    display: flex;
+    margin-left: 90px;
+    padding-top: 250px;
+  }
+
+  #history .history-content {
+    width: 40%;
+  }
+
+  #history .history-content-item {
+    text-align: justify;
+    color: var(--white-color);
+  }
+
+  #history .history-title {
+    font-family: beyno;
+    font-size: var(--h2-font-size);
+    color: var(--light-lavender-color);
+    padding-bottom: 20px;
+  }
+
+  #history .history-para {
+    padding-bottom: 30px;
+  }
+
+  #history .history-content-info {
+    background-color: var(--white-color);
+    width: 400px;
+    border-radius: 8px;
+  }
+
+  #history .history-content-info h3 {
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  #history h3 {
+    padding-top: 150px;
+  }
+
+  #history .history-content-info .history-btn {
+    text-align: center;
+  }
+
+  #history .history-info {
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+  }
+
+  #history .history-bold {
+    font-weight: bold;
+  }
+
+  #history .min {
+    font-size: 12px;
+  }
+
+  #history .pantherhome5 {
+    width: 200px;
+    margin-left: 100px;
+  }
+
+  #history .history-content-img {
+    position: relative;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    font-family: cantarell;
+  }
+
+  #history .history-content-info {
+    position: absolute;
+  }
+
+  #history .img-history {
+    position: absolute;
+    bottom: 1700px;
+    z-index: 1;
+  }
+
+  #history .btn-history-btn {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  #history .pantherhome6 {
+    position: absolute;
+    top: 800px;
+  }
+
+  /* Section CONTACT */
+
+  #contact {
+    background-image: url("../images/accueil/Pantherhome7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+
+  #contact article {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    padding: 200px;
+  }
+
+  #contact .contact-text {
+    text-align: center;
+  }
+
+  #contact form {
+    padding: 50px 100px;
+    border-radius: 152px;
+    font-family: cantarell;
+    background: linear-gradient(
+      to bottom,
+      var(--white-color) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  #contact input[type="text"],
+  #contact input[type="email"] {
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    border: 1px solid var(--dark-navy-blue-color);
+    padding-left: 25px;
+  }
+
+  #contact textarea {
+    border-radius: 38px;
+    width: 520px;
+    height: 112px;
+    background-color: transparent;
+    border: 1px solid var(--dark-navy-blue-color);
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+
+  #contact input[type="submit"] {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--light-lavender-color);
+    color: var(--dark-navy-blue-color);
+    font-weight: bold;
+  }
+
+  #contact input[type="submit"]:hover {
+    box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
+  }
+
+  #contact .btn-submit {
+    text-align: center;
+  }
+
+  #contact .contact-text {
+    padding-bottom: 25px;
+  }
+
+  #contact .contact-text-item {
+    padding-bottom: 10px;
+  }
+
+  /* Section FOOTER */
+  footer{
+    background-image: url('../images/all-pages/back_footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+   color: var(--white-color);
+   font-family: cantarell;
+  }
+
+  footer article{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* width: 99%; */
+    padding-top: 200px;
+  }
+
+  footer .footer-title{
+    font-size: 22px;
+    letter-spacing: 10px;
+  }
+
+  footer .footer-lien,  footer .footer-icon-reseau{
+    padding-top: 40px;
+  }
+
+  footer .footer-icon{
+    padding-left: 40px;
+  }
   
-    #history{
-        display: flex;
-         margin-left: 90px;
-         padding-top: 250px;
-     }
- 
-     
-     #history .history-content{
-         width: 40%;
-     }
- 
-     #history .history-content-item{
-         text-align: justify;
-         color: var(--white-color);
-     }
- 
-     #history .history-title{
-         font-family: beyno;
-         font-size: var( --h2-font-size);
-         color: var(--light-lavender-color);
-         padding-bottom: 20px;
-     }
- 
-     #history .history-para{
-         padding-bottom: 30px;
-     }
- 
-     #history .history-content-info{
-         background-color: var(--white-color);
-         width: 400px;
-         border-radius: 8px;
-     }
- 
-     #history .history-content-info h3{
-         text-align: center;
-         padding-bottom: 35px;
-     }
- 
-     #history h3{
-         padding-top: 150px;
-     }
- 
-     #history .history-content-info .history-btn {
-         text-align: center;
-     }
- 
-     #history .history-info{
-         padding-top: 35px;
-         padding-left: 70px;
-         padding-right: 70px;
-         padding-bottom: 70px;
-     }
- 
-     #history .history-bold{
-         font-weight: bold;
-     }
- 
-     #history .min{
-         font-size: 12px;
-     }
- 
-     #history .pantherhome5{
-         width: 200px;
-         margin-left: 100px;
-     }
- 
-       #history .history-content-img{
-         position: relative;
-         margin-left: 180px;
-         margin-bottom: 100px;
-         font-family: cantarell;
-      }
- 
-      #history .history-content-info{
-         position: absolute;
-      }
- 
-      #history .img-history{
-         position: absolute;
-         bottom: 1700px;
-      } 
- 
-      #history .img-history {
-         z-index: 1;
-      }
-      
-      #history .btn-history-btn{
-         background-color: var(--dark-blue-color);
-         color: var(--white-color);
-         text-decoration: none;
-         padding: 8px;
-         border-radius: 4px;
-      }
-      #history .pantherhome6{
-       position: absolute;
-       top: 800px;
-      }
+  footer .copyright{
+    padding-top: 180px;
+    font-size: var(--footer-font-size);
+  }
 
-      /* Section CONTACT */
+  footer .fouter1{
+    position: relative;
+  }
 
-      #contact{
-        background-image: url('../images/accueil/Pantherhome7.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 800px; 
-    }
+  footer .footer2{
+    position: absolute;
+    top: 4080px;
+    left: 100px;
+    z-index: 1;
+  }
+  /* FIN PAGES ACCUEIL */
 
-    #contact article{
-        display: flex;
-        justify-content: center; /* Centre horizontalement */
-        padding: 200px;
-    }
+   /* DEBUT PAGES WAKANDA */
 
-    #contact .contact-text{
-        text-align: center;
-    }
+  /* Section WAKANDA BANNER */
+  #wakanda-banner {
+    background-image: url(/assets/images/wakanda/Pantherwakanda1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
 
-    #contact form{
-         padding: 50px 100px;
-         border-radius: 152px;
-         font-family: cantarell;
-         background: linear-gradient(to bottom, var(--white-color) 0%, rgba(255, 255, 255, 0) 100%);
-    }
+  #wakanda-banner article{
+    padding-top: 18rem;
+    padding-left: 4rem;
+    text-align: justify;
+    width: 68%;
+  }
 
-    #contact input[type="text"], #contact input[type="email"]{
-       width: 520px;
-       height: 56px;
-       border-radius: 38px;
-       background-color: transparent;
-       border: 1px solid var(--dark-navy-blue-color);
-       padding-left: 25px;
-    }
+  #wakanda-banner h2{
+    font-family: beyno;
+    font-size: var(--h1-font-size);
+    color: var(--light-lavender-color);
+  }
 
-    #contact textarea{
-        border-radius: 38px;
-        width: 520px;
-        height: 112px;
-        background-color: transparent;
-        border: 1px solid var(--dark-navy-blue-color);
-        padding-top: 10px;
-        padding-left: 25px;
-    }
+  #wakanda-banner h3{
+    font-family: wakanda;
+    font-size: var(--h2-font-size);
+    color: var(--light-lavender-color);
+    padding-top: 15px;
+  }
 
-    #contact input[type="submit"]{
-        width: 174px;
-        height: 54px;
-        border-radius: 38px;
-        border: none;
-        cursor: pointer;
-        text-align: center;
-        background-color: var(--light-lavender-color);
-        color: var(--dark-navy-blue-color);
-        font-weight: bold;
-    }
+  #wakanda-banner p{
+    padding-top: 20px;
+    font-family: cantarell;
+    font-size: 16px;
+    color: var(--white-color);
+    width: 80%;
+  }
 
-    #contact input[type="submit"]:hover{
-        box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
-    }
-
-    #contact .btn-submit{
-        text-align: center;
-    }
-
-    #contact .contact-text{
-        padding-bottom: 25px;
-    }
-
-    #contact .contact-text-item{
-        padding-bottom: 10px;
-    }
+   /* Section WAKANDA ABOUT */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -782,181 +1012,184 @@ body {
 
 /* Styles pour les petits appareils comme les téléphones portables */
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: orange;
-    }
-   
-    /*  Section HEADER */
-    .navbar li a {
-        display: block;
-        color: var(--white-color);
-        text-align: center;
-        padding: 7px 10px;
-        text-decoration: none;
-    }
+  body {
+    background-color: #0a0c0f;
+  }
+/* DEBUT PAGES ACCUEIL */
 
-    /* Section BANNER */
-    #banner .text-banner {
-        margin-top: 6rem;
-        margin-left: 6rem;
-    }
+  /*  Section HEADER */
+  .navbar li a {
+    display: block;
+    color: var(--white-color);
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+  }
 
-    #banner .h1-banner{
-        font-size: 50px;
-    }
+  /* Section BANNER */
+  #banner .text-banner {
+    margin-top: 6rem;
+    margin-left: 6rem;
+  }
 
+  #banner .h1-banner {
+    font-size: 50px;
+  }
 
-    #banner .para-banner {
-        padding-top: 20px;
-        font-family: cantarell;
-        text-align: justify;
-        font-size: 16px;
-        color: var(--white-color);
-    }
+  #banner .para-banner {
+    padding-top: 20px;
+    font-family: cantarell;
+    text-align: justify;
+    font-size: 16px;
+    color: var(--white-color);
+  }
 
-    #banner .pantherhome1 {
-        width: 400px;
-        margin-left: 100px;
-    }
+  #banner .pantherhome1 {
+    width: 400px;
+    margin-left: 100px;
+  }
 
-    /* Section ACTORS */
-    #actors .actor-content{
-       margin-left: 25%;
-    }
+  /* Section ACTORS */
+  #actors .actor-content {
+    margin-left: 25%;
+  }
 
-    #actors .actor-content-text{
-        font-family: cantarell;
-        text-align: justify;
-        padding: 25px;
-        color: var(--white-color);
-        background-color: var(--dark-navy-blue-color);
-        font-size: 16px;
-    }
-    
-    /* Section HISTORY */
-    #history{
-        margin: 80px;
-     }
+  #actors .actor-content-text {
+    font-family: cantarell;
+    text-align: justify;
+    padding: 25px;
+    color: var(--white-color);
+    background-color: var(--dark-navy-blue-color);
+    font-size: 16px;
+  }
 
-     #history .history-content-item{
-        width: 100%;
-        margin-left: 50px;
-        margin-right: 50px;
-        text-align: justify;
-        color: var(--white-color);
-    }
+  /* Section HISTORY */
+  #history {
+    margin: 80px;
+  }
 
-    #history .history-title{
-        font-family: beyno;
-        font-size: var( --h2-font-size);
-        color: var(--light-lavender-color);
-        padding-bottom: 20px;
-    }
+  #history .history-content-item {
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    color: var(--white-color);
+  }
 
-    #history .history-para{
-        padding-bottom: 30px;
-    }
+  #history .history-title {
+    font-family: beyno;
+    font-size: var(--h2-font-size);
+    color: var(--light-lavender-color);
+    padding-bottom: 20px;
+  }
 
-    #history .history-content-info{
-        background-color: var(--white-color);
-        width: 400px;
-        border-radius: 8px;
-    }
-    
-    
-    #history .history-content-info h3{
-        text-align: center;
-        padding-bottom: 35px;
-    }
+  #history .history-para {
+    padding-bottom: 30px;
+  }
 
-    #history h3{
-        padding-top: 150px;
-    }
+  #history .history-content-info {
+    background-color: var(--white-color);
+    width: 400px;
+    border-radius: 8px;
+  }
 
-    #history .history-content-info .history-btn {
-        text-align: center;
-    }
+  #history .history-content-info h3 {
+    text-align: center;
+    padding-bottom: 35px;
+  }
 
-    #history .history-info{
-        padding-top: 35px;
-        padding-left: 70px;
-        padding-right: 70px;
-        padding-bottom: 70px;
-    }
+  #history h3 {
+    padding-top: 150px;
+  }
 
-    #history .history-bold{
-        font-weight: bold;
-    }
+  #history .history-content-info .history-btn {
+    text-align: center;
+  }
 
-    #history .min{
-        font-size: 12px;
-    }
+  #history .history-info {
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+  }
 
-    #history .pantherhome5{
-        width: 200px;
-        margin-left: 100px;
-    }
+  #history .history-bold {
+    font-weight: bold;
+  }
 
-    #history .history-content-img{
-        font-family: cantarell;
-     }
+  #history .min {
+    font-size: 12px;
+  }
 
+  #history .pantherhome5 {
+    width: 200px;
+    margin-left: 100px;
+  }
 
-     #history .img-history {
-        z-index: 1;
-        position: relative;
-        top: 150px;
-     }
+  #history .history-content-img {
+    font-family: cantarell;
+  }
 
-     #history .btn-history-btn{
-        background-color: var(--dark-blue-color);
-        color: var(--white-color);
-        text-decoration: none;
-        padding: 8px;
-        border-radius: 4px;
-     }
+  #history .img-history {
+    z-index: 1;
+    position: relative;
+    top: 150px;
+  }
 
-     #history .pantherhome6{
-        position: absolute;
-        top: 5300px;
-     }
+  #history .btn-history-btn {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
 
-     /* Section CONTACT */
-     #contact{
-        margin-top: 700px;
-        background-image: url('../images/accueil/Pantherhome7.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 800px; 
-     }
+  #history .pantherhome6 {
+    position: absolute;
+    top: 5300px;
+  }
 
-     #contact article{
-        display: flex;
-        justify-content: center;
-        padding: 200px;
-    }
+  /* Section CONTACT */
+  #contact {
+    margin-top: 700px;
+    background-image: url("../images/accueil/Pantherhome7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
 
-    #contact .contact-text{
-        text-align: center;
-    }
+  #contact article {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+  }
 
-    #contact form{
-        padding: 50px 100px;
-        border-radius: 52px;
-        font-family: cantarell;
-        background: linear-gradient(to bottom, var(--white-color) 0%, rgba(255, 255, 255, 0) 100%);
-   }
+  #contact .contact-text {
+    text-align: center;
+  }
 
-   #contact input[type="text"], #contact input[type="email"]{
+  #contact form {
+    padding: 50px 100px;
+    border-radius: 52px;
+    font-family: cantarell;
+    background: linear-gradient(
+      to bottom,
+      var(--white-color) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  #contact input[type="text"],
+  #contact input[type="email"] {
     width: 150px;
     height: 56px;
     border-radius: 38px;
     background-color: transparent;
     border: 1px solid var(--dark-navy-blue-color);
     padding-left: 25px;
- }
+  }
 
- #contact textarea{
+  #contact textarea {
     border-radius: 38px;
     width: 150px;
     height: 112px;
@@ -964,9 +1197,9 @@ body {
     border: 1px solid var(--dark-navy-blue-color);
     padding-top: 10px;
     padding-left: 25px;
-}
+  }
 
-#contact input[type="submit"]{
+  #contact input[type="submit"] {
     width: 104px;
     height: 54px;
     border-radius: 38px;
@@ -976,21 +1209,108 @@ body {
     background-color: var(--light-lavender-color);
     color: var(--dark-navy-blue-color);
     font-weight: bold;
-}
+  }
 
-#contact input[type="submit"]:hover{
+  #contact input[type="submit"]:hover {
     box-shadow: 0px 0px 20px var(--dark-navy-blue-color);
-}
+  }
 
-#contact .btn-submit{
+  #contact .btn-submit {
     text-align: center;
-}
+  }
 
-#contact .contact-text{
+  #contact .contact-text {
     padding-bottom: 25px;
+  }
+
+  #contact .contact-text-item {
+    padding-bottom: 10px;
+  }
+
+  /* Section FOOTER */
+  footer{
+    background-image: url('../images/all-pages/back_footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white-color);
+    font-family: cantarell;
 }
 
-#contact .contact-text-item{
-    padding-bottom: 10px;
+footer article{
+  padding-top: 200px;
+  padding-left: 100px;
 }
+
+footer .footer-title{
+  font-size: 22px;
+  letter-spacing: 10px;
+}
+
+footer .footer-lien,  footer .footer-icon-reseau{
+  padding-top: 40px;
+}
+
+footer .footer-icon{
+  padding-left: 40px;
+}
+
+footer .copyright{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-size: var(--footer-font-size);
+}
+
+footer .fouter1{
+  position: relative;
+}
+
+footer .footer2{
+  position: absolute;
+  top: 7060px;
+  left: 180px;
+  z-index: 1;
+}
+
+/* FIN PAGES ACCUEIL */
+
+ /* DEBUT PAGES WAKANDA */
+
+  /* Section WAKANDA BANNER */
+  #wakanda-banner {
+    background-image: url(/assets/images/wakanda/Pantherwakanda1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+
+  #wakanda-banner article{
+    padding-top: 14rem;
+    padding-left: 2rem;
+    text-align: justify;
+    width: 90%;
+  }
+
+  #wakanda-banner h2{
+    font-family: beyno;
+    font-size: var(--h1-font-size);
+    color: var(--light-lavender-color);
+  }
+
+  #wakanda-banner h3{
+    font-family: wakanda;
+    font-size: var(--h2-font-size);
+    color: var(--light-lavender-color);
+    padding-top: 15px;
+  }
+
+  #wakanda-banner p{
+    padding-top: 20px;
+    font-family: cantarell;
+    font-size: 16px;
+    color: var(--white-color);
+    width: 80%;
+  }
+
+  /* Section WAKANDA ABOUT */
 }
