@@ -462,7 +462,7 @@ body {
     font-size: var(--footer-font-size);
   }
 
-  footer .fouter1{
+  footer .footer1{
     position: relative;
   }
 
@@ -471,7 +471,7 @@ body {
     top: 4000px;
     left: 180px;
     z-index: 1;
-  }
+  } 
 
   /* FIN PAGES ACCUEIL */
 
@@ -490,7 +490,7 @@ body {
     padding-top: 18rem;
     padding-left: 4rem;
     text-align: justify;
-    width: 60%;
+    width: 100%;
   }
 
   #wakanda-banner h2{
@@ -515,12 +515,66 @@ body {
   }
 
    /* Section WAKANDA ABOUT */
+
    #wakanda-about{
     background-image: url('../images/wakanda/Pantherwakanda2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 800px; 
+    display: flex;
+    justify-content: space-around;   
+    padding-top: 100px;
+    font-size: var(--texte-font-size);
    }
+
+   #wakanda-about article{
+    width: 40%;
+    text-align: justify;
+   }
+
+   #wakanda-about h2{
+    font-family: beyno;
+    font-size: var( --h2-font-size);
+    color: var(--light-lavender-color);
+    padding-bottom: 25px;
+   }
+
+   #wakanda-about p{
+    color: var(--white-color);
+    font-family: cantarell;
+    padding-bottom: 25px;
+   }
+
+   #wakanda-about .wakanda-about-lien {
+    background-color: var(--dark-violet-color);
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 100px;
+    margin-bottom: 25px;
+   }
+
+   #wakanda-about .wakanda-about-lien a{
+    color: var(--white-color);
+   }
+
+    /* Section FOOTER */
+
+    #wakanda-footer{
+      margin-top: 1600px;
+    }
+
+    #wakanda-footer .footer1{
+      position: relative;
+    }
+
+    #wakanda-footer .footer2{
+      position: absolute;
+      top: 3600px;
+      left: 180px;
+      z-index: 1;
+    }
+
+     /* FIN PAGES WAKANDA */
 }
 
 
@@ -881,7 +935,7 @@ body {
     font-size: var(--footer-font-size);
   }
 
-  footer .fouter1{
+  footer .footer1{
     position: relative;
   }
 
@@ -902,6 +956,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    font-size: var(--texte-font-size);
   }
 
   #wakanda-banner article{
@@ -933,6 +988,65 @@ body {
   }
 
    /* Section WAKANDA ABOUT */
+   #wakanda-about{
+    background-image: url('../images/wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px; 
+    display: flex;
+    justify-content: space-around;   
+    padding-top: 100px;
+  
+   }
+
+   #wakanda-about article{
+    width: 40%;
+    text-align: justify;
+   }
+
+   #wakanda-about h2{
+    font-family: beyno;
+    font-size: var( --h2-font-size);
+    color: var(--light-lavender-color);
+    padding-bottom: 25px;
+   }
+
+   #wakanda-about p{
+    color: var(--white-color);
+    font-family: cantarell;
+    padding-bottom: 25px;
+   }
+
+   #wakanda-about .wakanda-about-lien {
+    background-color: var(--dark-violet-color);
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 100px;
+    margin-bottom: 25px;
+   }
+
+   #wakanda-about .wakanda-about-lien a{
+    color: var(--white-color);
+   }
+
+    /* Section FOOTER de la PAGES WAKANDA*/
+
+    #wakanda-footer{
+      margin-top: 1800px;
+    }
+
+    #wakanda-footer .footer1{
+      position: relative;
+    }
+
+    #wakanda-footer .footer2{
+      position: absolute;
+      top: 3800px;
+      left: 100px;
+      z-index: 1;
+    }
+
+     /* FIN PAGES WAKANDA */
 }
 
 
@@ -1156,6 +1270,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    font-size: var(--texte-font-size);
   }
 
   #contact article {
@@ -1260,7 +1375,7 @@ footer .copyright{
   font-size: var(--footer-font-size);
 }
 
-footer .fouter1{
+footer .footer1{
   position: relative;
 }
 
@@ -1313,4 +1428,61 @@ footer .footer2{
   }
 
   /* Section WAKANDA ABOUT */
+
+  #wakanda-about{
+    background-image: url('../images/wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    padding-top: 100px;
+   }
+
+   #wakanda-about article{
+    padding: 25px;
+    text-align: justify;
+   }
+
+   #wakanda-about h2{
+    font-family: beyno;
+    font-size: var( --h2-font-size);
+    color: var(--light-lavender-color);
+    padding-bottom: 25px;
+   }
+
+   #wakanda-about p{
+    color: var(--white-color);
+    font-family: cantarell;
+    padding-bottom: 25px;
+   }
+
+   #wakanda-about .wakanda-about-lien {
+    background-color: var(--dark-violet-color);
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 100px;
+    margin-bottom: 25px;
+   }
+
+   #wakanda-about .wakanda-about-lien a{
+    color: var(--white-color);
+   }
+
+    /* Section FOOTERde la PAGES WAKANDA */
+
+    #wakanda-footer{
+      margin-top: 4300px;
+    }
+
+    #wakanda-footer .footer1{
+      position: relative;
+    }
+
+    #wakanda-footer .footer2{
+      position: absolute;
+      top: 5900px;
+      left: 180px;
+      z-index: 1;
+    }
+
+     /* FIN PAGES WAKANDA */
 }
