@@ -490,7 +490,7 @@ body {
     padding-top: 18rem;
     padding-left: 4rem;
     text-align: justify;
-    width: 100%;
+    width: 60%;
   }
 
   #wakanda-banner h2{
@@ -575,6 +575,48 @@ body {
     }
 
      /* FIN PAGES WAKANDA */
+
+
+     /* DEBUT PAGES ENIGME */
+
+      /* Section BANNER  */
+      #enigme-banner {
+          display: flex;
+      }
+
+      #enigme-banner h2{
+        font-family: beyno;
+        font-size: var(--h2-enigme-font-size);
+        color: var(--light-lavender-color);
+        position: absolute;
+        top: 200px;
+        right: 200px;
+      }
+
+      #enigme-banner .pantherenigme1{
+        width: 200%;
+        margin-left: 50px;
+      }
+
+      #enigme-banner .pantherenigme2{
+        width: 70%;
+        padding-top: 250px;
+        margin-left: 250px;
+      }
+
+    
+      #enigme-banner .enigme-banner-citation{
+        color: var(--white-color);
+        font-family: cantarell;
+        font-size: var(--citation-font-size);
+        text-align: justify;
+        position: absolute;
+        top: 440px; 
+        right: 128px;
+        width: 460px;
+      }
+      
+     /* FIN PAGES ENIGME */
 }
 
 
@@ -1047,6 +1089,46 @@ body {
     }
 
      /* FIN PAGES WAKANDA */
+
+     
+     /* DEBUT PAGES ENIGME */
+      /* Section BANNER  */
+      #enigme-banner {
+        display: flex;
+    }
+
+    #enigme-banner h2{
+      font-family: beyno;
+      font-size: var(--h2-enigme-font-size);
+      color: var(--light-lavender-color);
+      position: absolute;
+      top: 200px;
+      right: 200px;
+    }
+
+    #enigme-banner .pantherenigme1{
+      width: 350%;
+      margin-left: 50px;
+    }
+
+    #enigme-banner .pantherenigme2{
+      width: 70%;
+      padding-top: 250px;
+      margin-left: 250px;
+    }
+
+  
+    #enigme-banner .enigme-banner-citation{
+      color: var(--white-color);
+      font-family: cantarell;
+      font-size: var(--citation-font-size);
+      text-align: justify;
+      position: absolute;
+      top: 440px; 
+      right: 128px;
+      width: 460px;
+    }
+     /* FIN PAGES ENIGME */
 }
 
 
@@ -1485,4 +1567,9 @@ footer .footer2{
     }
 
      /* FIN PAGES WAKANDA */
+     
+     /* DEBUT PAGES ENIGME */
+      /* Section BANNER  */
+      
+     /* FIN PAGES ENIGME */
 }
