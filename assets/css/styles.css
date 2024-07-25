@@ -60,7 +60,7 @@ body {
   background-image: url("../images/all-pages/arrière_plan.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 3800px;
+  height: 800px;
 }
 
 /* Section HEADER */
@@ -178,10 +178,10 @@ body {
 /* Styles pour les grands ordinateurs de bureau */
 @media only screen and (min-width: 1200px) {
   body {
-    background-color: orangered;
+    background-color: #0a0c0f;
   }
 
-/* DEBUT PAGES ACCUEIL */
+  /* DEBUT PAGES ACCUEIL */
 
   /*  Section HEADER */
   .navbar li a {
@@ -343,6 +343,7 @@ body {
     padding: 8px;
     border-radius: 4px;
   }
+
   #history .pantherhome6 {
     position: absolute;
     top: 800px;
@@ -358,7 +359,8 @@ body {
 
   #contact article {
     display: flex;
-    justify-content: center; /* Centre horizontalement */
+    justify-content: center;
+    /* Centre horizontalement */
     padding: 200px;
   }
 
@@ -370,11 +372,9 @@ body {
     padding: 50px 100px;
     border-radius: 152px;
     font-family: cantarell;
-    background: linear-gradient(
-      to bottom,
-      var(--white-color) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
+    background: linear-gradient(to bottom,
+        var(--white-color) 0%,
+        rgba(255, 255, 255, 0) 100%);
   }
 
   #contact input[type="text"],
@@ -427,16 +427,16 @@ body {
 
   /* Section FOOTER */
 
-  footer{
+  footer {
     background-image: url('../images/all-pages/back_footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
-   color: var(--white-color);
-   font-family: cantarell;
+    color: var(--white-color);
+    font-family: cantarell;
   }
 
-  footer article{
+  footer article {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -444,41 +444,42 @@ body {
     padding-top: 200px;
   }
 
-  footer .footer-title{
+  footer .footer-title {
     font-size: 22px;
     letter-spacing: 10px;
   }
 
-  footer .footer-lien,  footer .footer-icon-reseau{
+  footer .footer-lien,
+  footer .footer-icon-reseau {
     padding-top: 40px;
   }
 
-  footer .footer-icon{
+  footer .footer-icon {
     padding-left: 40px;
   }
-  
-  footer .copyright{
+
+  footer .copyright {
     padding-top: 180px;
     font-size: var(--footer-font-size);
   }
 
-  footer .footer1{
+  footer .footer1 {
     position: relative;
   }
 
-  footer .footer2{
+  footer .footer2 {
     position: absolute;
     top: 4000px;
     left: 180px;
     z-index: 1;
-  } 
+  }
 
   /* FIN PAGES ACCUEIL */
 
   /* DEBUT PAGES WAKANDA */
 
   /* Section WAKANDA BANNER */
-   #wakanda-banner {
+  #wakanda-banner {
     background-image: url('../images/wakanda/Pantherwakanda1.png');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -486,27 +487,27 @@ body {
     height: 800px;
   }
 
-  #wakanda-banner article{
+  #wakanda-banner article {
     padding-top: 18rem;
     padding-left: 4rem;
     text-align: justify;
     width: 60%;
   }
 
-  #wakanda-banner h2{
+  #wakanda-banner h2 {
     font-family: beyno;
     font-size: var(--h1-font-size);
     color: var(--light-lavender-color);
   }
 
-  #wakanda-banner h3{
+  #wakanda-banner h3 {
     font-family: wakanda;
     font-size: var(--h2-font-size);
     color: var(--light-lavender-color);
     padding-top: 15px;
   }
 
-  #wakanda-banner p{
+  #wakanda-banner p {
     padding-top: 20px;
     font-family: cantarell;
     font-size: 16px;
@@ -514,109 +515,208 @@ body {
     width: 80%;
   }
 
-   /* Section WAKANDA ABOUT */
+  /* Section WAKANDA ABOUT */
 
-   #wakanda-about{
+  #wakanda-about {
     background-image: url('../images/wakanda/Pantherwakanda2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px; 
+    height: 800px;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
     padding-top: 100px;
     font-size: var(--texte-font-size);
-   }
+  }
 
-   #wakanda-about article{
+  #wakanda-about article {
     width: 40%;
     text-align: justify;
-   }
+  }
 
-   #wakanda-about h2{
+  #wakanda-about h2 {
     font-family: beyno;
-    font-size: var( --h2-font-size);
+    font-size: var(--h2-font-size);
     color: var(--light-lavender-color);
     padding-bottom: 25px;
-   }
+  }
 
-   #wakanda-about p{
+  #wakanda-about p {
     color: var(--white-color);
     font-family: cantarell;
     padding-bottom: 25px;
-   }
+  }
 
-   #wakanda-about .wakanda-about-lien {
+  #wakanda-about .wakanda-about-lien {
     background-color: var(--dark-violet-color);
     padding-top: 50px;
     padding-left: 25px;
     padding-bottom: 100px;
     margin-bottom: 25px;
-   }
+  }
 
-   #wakanda-about .wakanda-about-lien a{
+  #wakanda-about .wakanda-about-lien a {
     color: var(--white-color);
-   }
+  }
 
-    /* Section FOOTER */
+  /* Section FOOTER */
 
-    #wakanda-footer{
-      margin-top: 1600px;
-    }
+  #wakanda-footer {
+    margin-top: 1600px;
+  }
 
-    #wakanda-footer .footer1{
-      position: relative;
-    }
+  #wakanda-footer .footer1 {
+    position: relative;
+  }
 
-    #wakanda-footer .footer2{
-      position: absolute;
-      top: 3600px;
-      left: 180px;
-      z-index: 1;
-    }
+  #wakanda-footer .footer2 {
+    position: absolute;
+    top: 3600px;
+    left: 180px;
+    z-index: 1;
+  }
 
-     /* FIN PAGES WAKANDA */
+  /* FIN PAGES WAKANDA */
 
 
-     /* DEBUT PAGES ENIGME */
+  /* DEBUT PAGES ENIGME */
 
-      /* Section BANNER  */
-      #enigme-banner {
-          display: flex;
-      }
+  /* Section BANNER  */
+  #enigme-banner {
+    display: flex;
+  }
 
-      #enigme-banner h2{
-        font-family: beyno;
-        font-size: var(--h2-enigme-font-size);
-        color: var(--light-lavender-color);
-        position: absolute;
-        top: 200px;
-        right: 200px;
-      }
+  #enigme-banner h2 {
+    font-family: beyno;
+    font-size: var(--h2-enigme-font-size);
+    color: var(--light-lavender-color);
+    position: absolute;
+    top: 200px;
+    right: 200px;
+  }
 
-      #enigme-banner .pantherenigme1{
-        width: 200%;
-        margin-left: 50px;
-      }
+  #enigme-banner .pantherenigme1 {
+    width: 200%;
+    margin-left: 50px;
+  }
 
-      #enigme-banner .pantherenigme2{
-        width: 70%;
-        padding-top: 250px;
-        margin-left: 250px;
-      }
+  #enigme-banner .pantherenigme2 {
+    width: 70%;
+    padding-top: 250px;
+    margin-left: 250px;
+  }
 
-    
-      #enigme-banner .enigme-banner-citation{
-        color: var(--white-color);
-        font-family: cantarell;
-        font-size: var(--citation-font-size);
-        text-align: justify;
-        position: absolute;
-        top: 440px; 
-        right: 128px;
-        width: 460px;
-      }
-      
-     /* FIN PAGES ENIGME */
+  #enigme-banner .enigme-banner-citation {
+    color: var(--white-color);
+    font-family: cantarell;
+    font-size: var(--citation-font-size);
+    text-align: justify;
+    position: absolute;
+    top: 440px;
+    right: 128px;
+    width: 460px;
+  }
+
+  /* Section CITATION */
+  #citation {
+    display: flex;
+    margin: 40px;
+    padding-top: 80px;
+  }
+
+  #citation .text-enigme {
+    font-family: wakanda;
+    font-size: var(--h2-enigme-font-size);
+    color: var(--lavender-color);
+  }
+
+  #citation .para-lettre-wakanda {
+    color: var(--white-color);
+    padding-top: 200px;
+    width: 450px;
+  }
+
+  #citation .lettre-wakanda {
+    font-family: wakanda;
+  }
+
+  #citation form {
+    padding: 50px 100px;
+    border-radius: 52px;
+    font-family: cantarell;
+    color: var(--white-color);
+
+    padding-top: 200px;
+  }
+
+  #citation input[type="text"] {
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    border: 1px solid var(--pale-pink-color);
+    padding-left: 25px;
+    margin: 20px;
+  }
+
+  #citation input[type="submit"] {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--light-lavender-color);
+    color: var(--dark-navy-blue-color);
+    margin-left: 150px;
+    font-weight: bold;
+  }
+
+  #citation input[type="submit"]:hover {
+    box-shadow: 0px 0px 20px var(--pale-pink-color);
+  }
+
+  #citation .pantherenigme2 {
+    width: 470px;
+    margin-left: 50px;
+    padding-top: 100px;
+  }
+
+  #citation .citation {
+    text-align: center;
+    width: 30%;
+    font-size: var(--citation-font-size);
+    color: var(--white-color);
+    position: absolute;
+    top: 1080px;
+    left: 860px;
+  }
+
+  #citation .title-citation {
+    color: var(--dark-blue-color);
+    font-size: var(--citation-font-size);
+    color: var(--white-color);
+    position: absolute;
+    top: 1050px;
+    left: 1020px;
+  }
+
+  /* Section FOOTER ENIGME */
+  #enigme-footer {
+    margin-top: 800px;
+  }
+
+  #enigme-footer .footer1 {
+    position: relative;
+  }
+
+  #enigme-footer .footer2 {
+    position: absolute;
+    top: 2860px;
+    left: 180px;
+    z-index: 1;
+  }
+
+  /* FIN PAGES ENIGME */
 }
 
 
@@ -684,9 +784,10 @@ body {
 /* Styles pour les tablettes et petits ordinateurs portables */
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
   body {
-    background-color: darkorange;
+    background-color: #0a0c0f;
   }
-/* DEBUT PAGES ACCUEIL */
+
+  /* DEBUT PAGES ACCUEIL */
 
   /*  Section HEADER */
   .navbar li a {
@@ -874,7 +975,8 @@ body {
 
   #contact article {
     display: flex;
-    justify-content: center; /* Centre horizontalement */
+    justify-content: center;
+    /* Centre horizontalement */
     padding: 200px;
   }
 
@@ -886,11 +988,9 @@ body {
     padding: 50px 100px;
     border-radius: 152px;
     font-family: cantarell;
-    background: linear-gradient(
-      to bottom,
-      var(--white-color) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
+    background: linear-gradient(to bottom,
+        var(--white-color) 0%,
+        rgba(255, 255, 255, 0) 100%);
   }
 
   #contact input[type="text"],
@@ -942,16 +1042,16 @@ body {
   }
 
   /* Section FOOTER */
-  footer{
+  footer {
     background-image: url('../images/all-pages/back_footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
-   color: var(--white-color);
-   font-family: cantarell;
+    color: var(--white-color);
+    font-family: cantarell;
   }
 
-  footer article{
+  footer article {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -959,37 +1059,39 @@ body {
     padding-top: 200px;
   }
 
-  footer .footer-title{
+  footer .footer-title {
     font-size: 22px;
     letter-spacing: 10px;
   }
 
-  footer .footer-lien,  footer .footer-icon-reseau{
+  footer .footer-lien,
+  footer .footer-icon-reseau {
     padding-top: 40px;
   }
 
-  footer .footer-icon{
+  footer .footer-icon {
     padding-left: 40px;
   }
-  
-  footer .copyright{
+
+  footer .copyright {
     padding-top: 180px;
     font-size: var(--footer-font-size);
   }
 
-  footer .footer1{
+  footer .footer1 {
     position: relative;
   }
 
-  footer .footer2{
+  footer .footer2 {
     position: absolute;
     top: 4080px;
     left: 100px;
     z-index: 1;
   }
+
   /* FIN PAGES ACCUEIL */
 
-   /* DEBUT PAGES WAKANDA */
+  /* DEBUT PAGES WAKANDA */
 
   /* Section WAKANDA BANNER */
   #wakanda-banner {
@@ -1001,27 +1103,27 @@ body {
     font-size: var(--texte-font-size);
   }
 
-  #wakanda-banner article{
+  #wakanda-banner article {
     padding-top: 18rem;
     padding-left: 4rem;
     text-align: justify;
     width: 68%;
   }
 
-  #wakanda-banner h2{
+  #wakanda-banner h2 {
     font-family: beyno;
     font-size: var(--h1-font-size);
     color: var(--light-lavender-color);
   }
 
-  #wakanda-banner h3{
+  #wakanda-banner h3 {
     font-family: wakanda;
     font-size: var(--h2-font-size);
     color: var(--light-lavender-color);
     padding-top: 15px;
   }
 
-  #wakanda-banner p{
+  #wakanda-banner p {
     padding-top: 20px;
     font-family: cantarell;
     font-size: 16px;
@@ -1029,106 +1131,249 @@ body {
     width: 80%;
   }
 
-   /* Section WAKANDA ABOUT */
-   #wakanda-about{
+  /* Section WAKANDA ABOUT */
+  #wakanda-about {
     background-image: url('../images/wakanda/Pantherwakanda2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px; 
+    height: 800px;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
     padding-top: 100px;
-  
-   }
 
-   #wakanda-about article{
+  }
+
+  #wakanda-about article {
     width: 40%;
     text-align: justify;
-   }
+  }
 
-   #wakanda-about h2{
+  #wakanda-about h2 {
     font-family: beyno;
-    font-size: var( --h2-font-size);
+    font-size: var(--h2-font-size);
     color: var(--light-lavender-color);
     padding-bottom: 25px;
-   }
+  }
 
-   #wakanda-about p{
+  #wakanda-about p {
     color: var(--white-color);
     font-family: cantarell;
     padding-bottom: 25px;
-   }
+  }
 
-   #wakanda-about .wakanda-about-lien {
+  #wakanda-about .wakanda-about-lien {
     background-color: var(--dark-violet-color);
     padding-top: 50px;
     padding-left: 25px;
     padding-bottom: 100px;
     margin-bottom: 25px;
-   }
+  }
 
-   #wakanda-about .wakanda-about-lien a{
+  #wakanda-about .wakanda-about-lien a {
     color: var(--white-color);
-   }
+  }
 
-    /* Section FOOTER de la PAGES WAKANDA*/
+  /* Section FOOTER de la PAGES WAKANDA*/
 
-    #wakanda-footer{
-      margin-top: 1800px;
-    }
+  #wakanda-footer {
+    margin-top: 1800px;
+  }
 
-    #wakanda-footer .footer1{
-      position: relative;
-    }
+  #wakanda-footer .footer1 {
+    position: relative;
+  }
 
-    #wakanda-footer .footer2{
-      position: absolute;
-      top: 3800px;
-      left: 100px;
-      z-index: 1;
-    }
+  #wakanda-footer .footer2 {
+    position: absolute;
+    top: 3800px;
+    left: 100px;
+    z-index: 1;
+  }
 
-     /* FIN PAGES WAKANDA */
+  /* FIN PAGES WAKANDA */
 
-     
-     /* DEBUT PAGES ENIGME */
-      /* Section BANNER  */
-      #enigme-banner {
-        display: flex;
-    }
 
-    #enigme-banner h2{
-      font-family: beyno;
-      font-size: var(--h2-enigme-font-size);
-      color: var(--light-lavender-color);
-      position: absolute;
-      top: 200px;
-      right: 200px;
-    }
+  /* DEBUT PAGES ENIGME */
+  /* Section BANNER  */
+  #enigme-banner {
+    display: flex;
+  }
 
-    #enigme-banner .pantherenigme1{
-      width: 350%;
-      margin-left: 50px;
-    }
+  #enigme-banner h2 {
+    font-family: beyno;
+    font-size: var(--h2-enigme-font-size);
+    color: var(--light-lavender-color);
+    position: absolute;
+    top: 200px;
+    right: 200px;
+  }
 
-    #enigme-banner .pantherenigme2{
-      width: 70%;
-      padding-top: 250px;
-      margin-left: 250px;
-    }
+  #enigme-banner .pantherenigme1 {
+    width: 350%;
+    margin-left: 50px;
+  }
 
-  
-    #enigme-banner .enigme-banner-citation{
-      color: var(--white-color);
-      font-family: cantarell;
-      font-size: var(--citation-font-size);
-      text-align: justify;
-      position: absolute;
-      top: 440px; 
-      right: 128px;
-      width: 460px;
-    }
-     /* FIN PAGES ENIGME */
+  #enigme-banner .pantherenigme2 {
+    width: 70%;
+    padding-top: 250px;
+    margin-left: 250px;
+  }
+
+  #enigme-banner .pantherenigme3 {
+    width: 800px;
+    padding-left: 20px;
+  }
+
+  #enigme-banner .enigme-banner-citation {
+    color: var(--white-color);
+    font-family: cantarell;
+    font-size: var(--citation-font-size);
+    text-align: justify;
+    position: absolute;
+    top: 440px;
+    right: 128px;
+    width: 460px;
+  }
+
+  /* DEBUT PAGES ENIGME */
+
+  /* Section BANNER  */
+  #enigme-banner {
+    display: flex;
+  }
+
+  #enigme-banner h2 {
+    font-family: beyno;
+    font-size: var(--h2-enigme-font-size);
+    color: var(--light-lavender-color);
+    position: absolute;
+    top: 200px;
+    right: 200px;
+  }
+
+  #enigme-banner .pantherenigme1 {
+    width: 200%;
+    margin-left: 50px;
+  }
+
+  #enigme-banner .pantherenigme2 {
+    width: 70%;
+    padding-top: 250px;
+    margin-left: 250px;
+  }
+
+  #enigme-banner .enigme-banner-citation {
+    color: var(--white-color);
+    font-family: cantarell;
+    font-size: var(--citation-font-size);
+    text-align: justify;
+    position: absolute;
+    top: 440px;
+    right: 128px;
+    width: 460px;
+  }
+
+  /* Section CITATION */
+  #citation {
+    display: flex;
+    margin: 40px;
+    padding-top: 80px;
+  }
+
+  #citation .text-enigme {
+    font-family: wakanda;
+    font-size: var(--h2-enigme-font-size);
+    color: var(--lavender-color);
+  }
+
+  #citation .para-lettre-wakanda {
+    color: var(--white-color);
+    padding-top: 200px;
+    width: 450px;
+  }
+
+  #citation .lettre-wakanda {
+    font-family: wakanda;
+  }
+
+  #citation form {
+    padding: 50px 100px;
+    border-radius: 52px;
+    font-family: cantarell;
+    color: var(--white-color);
+
+    padding-top: 200px;
+  }
+
+  #citation input[type="text"] {
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    border: 1px solid var(--pale-pink-color);
+    padding-left: 25px;
+    margin: 20px;
+  }
+
+  #citation input[type="submit"] {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--light-lavender-color);
+    color: var(--dark-navy-blue-color);
+    margin-left: 150px;
+    font-weight: bold;
+  }
+
+  #citation input[type="submit"]:hover {
+    box-shadow: 0px 0px 20px var(--pale-pink-color);
+  }
+
+  #citation .pantherenigme2 {
+    width: 470px;
+    margin-left: -450px;
+    padding-top: 100px;
+  }
+
+  #citation .citation {
+    text-align: center;
+    width: 30%;
+    font-size: var(--citation-font-size);
+    color: var(--white-color);
+    position: absolute;
+    top: 1040px;
+    left: 700px;
+  }
+
+  #citation .title-citation {
+    color: var(--dark-blue-color);
+    font-size: var(--citation-font-size);
+    color: var(--white-color);
+    position: absolute;
+    top: 1000px;
+    left: 830px;
+  }
+
+  /* Section FOOTER ENIGME */
+  #enigme-footer {
+    margin-top: 800px;
+  }
+
+  #enigme-footer .footer1 {
+    position: relative;
+  }
+
+  #enigme-footer .footer2 {
+    position: absolute;
+    top: 2860px;
+    left: 180px;
+    z-index: 1;
+  }
+
+  /* FIN PAGES ENIGME */
 }
 
 
@@ -1211,7 +1456,8 @@ body {
   body {
     background-color: #0a0c0f;
   }
-/* DEBUT PAGES ACCUEIL */
+
+  /* DEBUT PAGES ACCUEIL */
 
   /*  Section HEADER */
   .navbar li a {
@@ -1369,11 +1615,9 @@ body {
     padding: 50px 100px;
     border-radius: 52px;
     font-family: cantarell;
-    background: linear-gradient(
-      to bottom,
-      var(--white-color) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
+    background: linear-gradient(to bottom,
+        var(--white-color) 0%,
+        rgba(255, 255, 255, 0) 100%);
   }
 
   #contact input[type="text"],
@@ -1425,83 +1669,84 @@ body {
   }
 
   /* Section FOOTER */
-  footer{
+  footer {
     background-image: url('../images/all-pages/back_footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--white-color);
     font-family: cantarell;
-}
+  }
 
-footer article{
-  padding-top: 200px;
-  padding-left: 100px;
-}
+  footer article {
+    padding-top: 200px;
+    padding-left: 100px;
+  }
 
-footer .footer-title{
-  font-size: 22px;
-  letter-spacing: 10px;
-}
+  footer .footer-title {
+    font-size: 22px;
+    letter-spacing: 10px;
+  }
 
-footer .footer-lien,  footer .footer-icon-reseau{
-  padding-top: 40px;
-}
+  footer .footer-lien,
+  footer .footer-icon-reseau {
+    padding-top: 40px;
+  }
 
-footer .footer-icon{
-  padding-left: 40px;
-}
+  footer .footer-icon {
+    padding-left: 40px;
+  }
 
-footer .copyright{
-  padding-top: 90px;
-  padding-bottom: 90px;
-  font-size: var(--footer-font-size);
-}
+  footer .copyright {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: var(--footer-font-size);
+  }
 
-footer .footer1{
-  position: relative;
-}
+  footer .footer1 {
+    position: relative;
+  }
 
-footer .footer2{
-  position: absolute;
-  top: 7060px;
-  left: 180px;
-  z-index: 1;
-}
+  footer .footer2 {
+    position: absolute;
+    top: 7015px;
+    left: 180px;
+    z-index: 1;
+  }
 
-/* FIN PAGES ACCUEIL */
+  /* FIN PAGES ACCUEIL */
 
- /* DEBUT PAGES WAKANDA */
+  /* DEBUT PAGES WAKANDA */
 
   /* Section WAKANDA BANNER */
   #wakanda-banner {
-    background-image: url(/assets/images/wakanda/Pantherwakanda1.png);
+    background-image: url('../assets/images/wakanda/Pantherwakanda1.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
   }
 
-  #wakanda-banner article{
+  #wakanda-banner article {
     padding-top: 14rem;
     padding-left: 2rem;
     text-align: justify;
     width: 90%;
   }
 
-  #wakanda-banner h2{
+  #wakanda-banner h2 {
     font-family: beyno;
     font-size: var(--h1-font-size);
     color: var(--light-lavender-color);
   }
 
-  #wakanda-banner h3{
+  #wakanda-banner h3 {
     font-family: wakanda;
     font-size: var(--h2-font-size);
     color: var(--light-lavender-color);
     padding-top: 15px;
   }
 
-  #wakanda-banner p{
+  #wakanda-banner p {
     padding-top: 20px;
     font-family: cantarell;
     font-size: 16px;
@@ -1511,65 +1756,202 @@ footer .footer2{
 
   /* Section WAKANDA ABOUT */
 
-  #wakanda-about{
+  #wakanda-about {
     background-image: url('../images/wakanda/Pantherwakanda2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px; 
+    height: 400px;
     padding-top: 100px;
-   }
+  }
 
-   #wakanda-about article{
+  #wakanda-about article {
     padding: 25px;
     text-align: justify;
-   }
+  }
 
-   #wakanda-about h2{
+  #wakanda-about h2 {
     font-family: beyno;
-    font-size: var( --h2-font-size);
+    font-size: var(--h2-font-size);
     color: var(--light-lavender-color);
     padding-bottom: 25px;
-   }
+  }
 
-   #wakanda-about p{
+  #wakanda-about p {
     color: var(--white-color);
     font-family: cantarell;
     padding-bottom: 25px;
-   }
+  }
 
-   #wakanda-about .wakanda-about-lien {
+  #wakanda-about .wakanda-about-lien {
     background-color: var(--dark-violet-color);
     padding-top: 50px;
     padding-left: 25px;
     padding-bottom: 100px;
     margin-bottom: 25px;
-   }
+  }
 
-   #wakanda-about .wakanda-about-lien a{
+  #wakanda-about .wakanda-about-lien a {
     color: var(--white-color);
-   }
+  }
 
-    /* Section FOOTERde la PAGES WAKANDA */
+  /* Section FOOTERde la PAGES WAKANDA */
 
-    #wakanda-footer{
-      margin-top: 4300px;
-    }
+  #wakanda-footer {
+    margin-top: 4300px;
+  }
 
-    #wakanda-footer .footer1{
-      position: relative;
-    }
+  #wakanda-footer .footer1 {
+    position: relative;
+  }
 
-    #wakanda-footer .footer2{
-      position: absolute;
-      top: 5900px;
-      left: 180px;
-      z-index: 1;
-    }
+  #wakanda-footer .footer2 {
+    position: absolute;
+    top: 5900px;
+    left: 180px;
+    z-index: 1;
+  }
 
-     /* FIN PAGES WAKANDA */
-     
-     /* DEBUT PAGES ENIGME */
-      /* Section BANNER  */
-      
-     /* FIN PAGES ENIGME */
+  /* FIN PAGES WAKANDA */
+
+  /* DEBUT PAGES ENIGME */
+
+  /* Section ENIGME BANNER  */
+  #enigme-banner {
+    width: 95%;
+  }
+
+  #enigme-banner h2 {
+    font-family: beyno;
+    font-size: var(--h2-enigme-font-size);
+    color: var(--light-lavender-color);
+    position: absolute;
+    top: 300px;
+    right: 50px;
+  }
+
+  #enigme-banner .pantherenigme1 {
+    width: 470px;
+    margin-left: 100px;
+    padding-top: 400px;
+  }
+
+
+  #enigme-banner .pantherenigme2 {
+    width: 470px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  #enigme-banner .enigme-banner-citation {
+    color: var(--white-color);
+    font-family: cantarell;
+    font-size: var(--citation-font-size);
+    text-align: justify;
+    position: absolute;
+    top: 1140px;
+    right: 80px;
+    width: 460px;
+  }
+
+  #enigme-banner .pantherenigme3 {
+    width: 400px;
+    padding-left: 20px;
+  }
+
+  /* Section CITATION */
+  #citation .text-enigme {
+    font-family: wakanda;
+    font-size: var(--h2-enigme-font-size);
+    color: var(--lavender-color);
+    margin: 50px;
+    padding-top: 200px;
+  }
+
+  #citation .para-lettre-wakanda {
+    margin: 60px;
+    color: var(--white-color);
+    padding-top: 200px;
+  }
+
+  #citation .lettre-wakanda {
+    font-family: wakanda;
+  }
+
+  #citation form {
+    padding: 50px 100px;
+    border-radius: 52px;
+    font-family: cantarell;
+    color: var(--white-color);
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  #citation input[type="text"] {
+    width: 150px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    border: 1px solid var(--pale-pink-color);
+    padding-left: 25px;
+    margin: 20px;
+  }
+
+  #citation input[type="submit"] {
+    width: 104px;
+    height: 54px;
+    border-radius: 38px;
+    border: 1px solid var(--pale-pink-color);
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--light-lavender-color);
+    color: var(--pale-pink-color);
+    font-weight: bold;
+  }
+
+  #citation input[type="submit"]:hover {
+    box-shadow: 0px 0px 20px var(--pale-pink-color);
+  }
+
+  #citation .pantherenigme2 {
+    width: 470px;
+    margin-left: 50px;
+    padding-top: 940px;
+  }
+
+  #citation .citation {
+    text-align: center;
+    width: 30%;
+    font-size: var(--citation-font-size);
+    color: var(--white-color);
+    position: absolute;
+    top: 3660px;
+    left: 200px;
+  }
+
+  #citation .title-citation {
+    color: var(--white-color);
+    font-size: var(--citation-font-size);
+    color: var(--white-color);
+    position: absolute;
+    top: 3630px;
+    left: 250px;
+  }
+
+  /* Section FOOTER ENIGME */
+  #enigme-footer {
+    margin-top: 4000px;
+  }
+
+  #enigme-footer .footer1 {
+    position: relative;
+  }
+
+  #enigme-footer .footer2 {
+    position: absolute;
+    top: 8235px;
+    left: 180px;
+    z-index: 1;
+  }
+
+  /* FIN PAGES ENIGME */
 }
